@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export default function Home() {
   return (
@@ -151,6 +152,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Newsletter */}
+      <NewsletterSignup
+        heading="Join Fresh Start"
+        description="Sign up for monthly encouragement on faith, mental health, and wellness. Plus get a free guide: 5 Grounding Techniques for When Anxiety Hits."
+      />
 
       {/* CTA */}
       <section className="py-20 md:py-24">

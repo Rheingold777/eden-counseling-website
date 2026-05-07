@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export function Footer() {
   return (
     <footer className="bg-eden-forest text-white/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="font-heading text-xl font-semibold text-white mb-3">
               Eden Counseling and Wellness
@@ -29,6 +30,8 @@ export function Footer() {
               <li><Link href="/resources" className="hover:text-white transition-colors">Resources</Link></li>
             </ul>
           </div>
+
+          <NewsletterSignup variant="footer" />
 
           <div>
             <h4 className="font-heading text-lg font-semibold text-white mb-3">Get in Touch</h4>

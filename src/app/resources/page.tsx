@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
   title: "Resources & Blog",
@@ -88,31 +88,10 @@ export default function ResourcesPage() {
       </section>
 
       {/* Newsletter Signup */}
-      <section className="py-16 md:py-20 bg-eden-sage/30">
-        <div className="max-w-xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="font-heading text-3xl font-semibold text-eden-forest mb-4">
-            Stay Connected
-          </h2>
-          <p className="text-eden-forest/60 mb-8">
-            Sign up for occasional emails with new articles, wellness tips, and
-            encouragement. No spam, unsubscribe anytime.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3">
-            <input
-              type="email"
-              placeholder="Your email address"
-              required
-              className="flex-1 px-4 py-3 rounded-lg border border-eden-sage bg-white text-eden-forest placeholder:text-eden-forest/30 focus:outline-none focus:ring-2 focus:ring-eden-olive/30 focus:border-eden-olive transition"
-            />
-            <button
-              type="submit"
-              className="px-6 py-3 bg-eden-forest text-white font-medium rounded-lg hover:bg-eden-forest/90 transition-colors whitespace-nowrap"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </section>
+      <NewsletterSignup
+        heading="Join Fresh Start"
+        description="Sign up for monthly encouragement on faith, mental health, and wellness. Plus get a free guide: 5 Grounding Techniques for When Anxiety Hits. No spam, unsubscribe anytime."
+      />
 
       {/* Crisis Resources */}
       <section className="py-16 md:py-20">

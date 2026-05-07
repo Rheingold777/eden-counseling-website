@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
   title: "About Marissa Cooney",
@@ -177,8 +178,19 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* Newsletter */}
       <section className="py-16 md:py-20">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <NewsletterSignup
+            variant="compact"
+            heading="Stay Connected with Marissa"
+            description="Monthly reflections on faith, mental health, and fresh starts. Plus a free anxiety grounding guide when you sign up."
+          />
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 md:py-20 bg-eden-sage/30">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <h2 className="font-heading text-3xl font-semibold text-eden-forest mb-8">
             Frequently Asked Questions
