@@ -2,9 +2,6 @@
 
 import { useState, FormEvent } from "react";
 
-const BEEHIIV_PUBLICATION_ID = process.env.NEXT_PUBLIC_BEEHIIV_PUBLICATION_ID || "";
-const BEEHIIV_EMBED_URL = `https://embeds.beehiiv.com/subscribe`;
-
 interface NewsletterSignupProps {
   variant?: "default" | "compact" | "footer";
   heading?: string;
@@ -27,23 +24,11 @@ export function NewsletterSignup({
 
     setStatus("loading");
 
-    if (!BEEHIIV_PUBLICATION_ID) {
-      window.open(
-        `mailto:info@edencounselingandwellness.com?subject=Newsletter%20Signup&body=Please%20add%20me%20to%20your%20newsletter%3A%20${encodeURIComponent(email)}`,
-        "_blank"
-      );
-      setStatus("success");
-      return;
-    }
-
     try {
-      const res = await fetch(BEEHIIV_EMBED_URL, {
+      const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          publication_id: BEEHIIV_PUBLICATION_ID,
-          email,
-        }),
+        body: JSON.stringify({ email }),
       });
 
       if (res.ok) {
