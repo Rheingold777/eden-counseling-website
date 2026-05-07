@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-eden-forest: #1B3A2A;
+  --color-eden-sage: #E8F0E4;
+  --color-eden-cream: #FDF6EE;
+  --color-eden-olive: #6B7F3B;
+  --color-eden-brown: #7A6A4F;
+  --color-eden-blue: #5B7E95;
+  --color-eden-mint: #F0F7ED;
+  --color-eden-gold: #C4A962;
+  --font-heading: var(--font-cormorant);
+  --font-body: var(--font-dm-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-eden-cream);
+  color: #2D2D2D;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), Georgia, serif;
+}
+
+::selection {
+  background: var(--color-eden-sage);
+  color: var(--color-eden-forest);
+}
