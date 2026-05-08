@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { BlogPost } from "@/content/posts";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 interface BlogLayoutProps {
   post: BlogPost;
@@ -10,6 +11,14 @@ interface BlogLayoutProps {
 export function BlogLayout({ post, children }: BlogLayoutProps) {
   return (
     <>
+      <ArticleSchema post={post} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Blog", url: "/blog" },
+          { name: post.title, url: `/blog/${post.slug}` },
+        ]}
+      />
       {/* Hero */}
       <section className="bg-eden-sage/40 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">

@@ -44,10 +44,16 @@ export function generateMetadata({
         {
           url: post.image,
           width: 1200,
-          height: 600,
+          height: 1006,
           alt: post.imageAlt,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.metaTitle,
+      description: post.metaDescription,
+      images: [post.image],
     },
   };
 }

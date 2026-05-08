@@ -1,3 +1,66 @@
+import type { BlogPost } from "@/content/posts";
+
+const BASE_URL = "https://eden-counseling-website.vercel.app";
+
+export function ArticleSchema({ post }: { post: BlogPost }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.metaDescription,
+    image: `${BASE_URL}${post.image}`,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Person",
+      name: "Marissa Cooney",
+      jobTitle: "LPC-Associate",
+      url: `${BASE_URL}/about`,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Eden Counseling and Wellness",
+      logo: {
+        "@type": "ImageObject",
+        url: `${BASE_URL}/images/eden-logo.jpeg`,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${BASE_URL}/blog/${post.slug}`,
+    },
+    keywords: [post.targetKeyword, ...post.secondaryKeywords].join(", "),
+    articleSection: post.category,
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function BreadcrumbSchema({ items }: { items: { name: string; url: string }[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: `${BASE_URL}${item.url}`,
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
