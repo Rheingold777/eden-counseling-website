@@ -31,3 +31,84 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--color-eden-sage);
   color: var(--color-eden-forest);
 }
+
+/* Blog prose styles */
+.prose-eden h2 {
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-eden-forest);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.prose-eden h3 {
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-eden-forest);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-eden p {
+  color: #3a3a3a;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+  font-size: 1.05rem;
+}
+
+.prose-eden strong {
+  color: var(--color-eden-forest);
+  font-weight: 600;
+}
+
+.prose-eden em {
+  font-style: italic;
+}
+
+.prose-eden a {
+  color: var(--color-eden-olive);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+
+.prose-eden a:hover {
+  color: var(--color-eden-forest);
+}
+
+.prose-eden blockquote {
+  border-left: 3px solid var(--color-eden-olive);
+  padding-left: 1.25rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--color-eden-forest);
+}
+
+.prose-eden ul, .prose-eden ol {
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.prose-eden ul {
+  list-style-type: disc;
+}
+
+.prose-eden ol {
+  list-style-type: decimal;
+}
+
+.prose-eden li {
+  color: #3a3a3a;
+  line-height: 1.75;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.prose-eden hr {
+  border: none;
+  border-top: 1px solid var(--color-eden-sage);
+  margin: 2.5rem 0;
+}
