@@ -10,7 +10,7 @@ export function Footer() {
             <h3 className="font-heading text-xl font-semibold text-white mb-3">
               Eden Counseling and Wellness
             </h3>
-            <p className="text-sm leading-relaxed text-white/60 italic font-heading text-lg mb-4">
+            <p className="leading-relaxed text-white/60 italic font-heading text-lg mb-4">
               &ldquo;Let&rsquo;s go back to the beginning.&rdquo;
             </p>
             <p className="text-sm leading-relaxed">
