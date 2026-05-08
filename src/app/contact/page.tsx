@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -95,70 +96,7 @@ export default function ContactPage() {
               <h2 className="font-heading text-2xl font-semibold text-eden-forest mb-6">
                 Send a Message
               </h2>
-              <form className="space-y-5">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-eden-forest mb-1.5">
-                    Your Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    className="w-full px-4 py-3 rounded-lg border border-eden-sage bg-white text-eden-forest placeholder:text-eden-forest/30 focus:outline-none focus:ring-2 focus:ring-eden-olive/30 focus:border-eden-olive transition"
-                    placeholder="First and last name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-eden-forest mb-1.5">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className="w-full px-4 py-3 rounded-lg border border-eden-sage bg-white text-eden-forest placeholder:text-eden-forest/30 focus:outline-none focus:ring-2 focus:ring-eden-olive/30 focus:border-eden-olive transition"
-                    placeholder="you@example.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-eden-forest mb-1.5">
-                    Phone Number <span className="text-eden-forest/40">(optional)</span>
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full px-4 py-3 rounded-lg border border-eden-sage bg-white text-eden-forest placeholder:text-eden-forest/30 focus:outline-none focus:ring-2 focus:ring-eden-olive/30 focus:border-eden-olive transition"
-                    placeholder="(512) 555-0123"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-eden-forest mb-1.5">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    required
-                    className="w-full px-4 py-3 rounded-lg border border-eden-sage bg-white text-eden-forest placeholder:text-eden-forest/30 focus:outline-none focus:ring-2 focus:ring-eden-olive/30 focus:border-eden-olive transition resize-none"
-                    placeholder="Tell me a little about what you're looking for..."
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full px-6 py-3.5 bg-eden-forest text-white font-medium rounded-lg hover:bg-eden-forest/90 transition-colors"
-                >
-                  Send Message
-                </button>
-                <p className="text-xs text-eden-forest/40">
-                  This form is for general inquiries only. Please do not include
-                  sensitive health information. For immediate scheduling, use
-                  Psychology Today or call directly.
-                </p>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </div>
