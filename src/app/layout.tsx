@@ -38,6 +38,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Marissa Cooney, LPC-Associate" }],
   verification: {
+    google: "-dX-SYVIGLSF2la7aG7u_bl8M19dgDiSQq5Nw6kfvl0",
     other: {
       "msvalidate.01": "E323B62E6D3D8C8218C5DE7A98A265A3",
     },
