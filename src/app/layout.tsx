@@ -37,6 +37,11 @@ export const metadata: Metadata = {
     "Eden Counseling and Wellness",
   ],
   authors: [{ name: "Marissa Cooney, LPC-Associate" }],
+  verification: {
+    other: {
+      "msvalidate.01": "E323B62E6D3D8C8218C5DE7A98A265A3",
+    },
+  },
   openGraph: {
     title: "Eden Counseling and Wellness | Christian Counseling in Austin, TX",
     description:
