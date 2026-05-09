@@ -33,6 +33,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# social media content drafts (managed by Blotato/Metricool, not source code)
+/social-media/
+
 # vercel
 .vercel
 
