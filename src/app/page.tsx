@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
+import { posts } from "@/content/posts";
 
 export default function Home() {
   return (
@@ -158,6 +159,74 @@ export default function Home() {
         heading="Join Fresh Start"
         description="Sign up for monthly encouragement on faith, mental health, and wellness. Plus get a free guide: 5 Grounding Techniques for When Anxiety Hits."
       />
+
+      {/* Latest from the Blog */}
+      <section className="py-20 md:py-24">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-14">
+            <h2 className="font-heading text-3xl md:text-4xl font-semibold text-eden-forest mb-4">
+              Latest from the Blog
+            </h2>
+            <p className="text-eden-forest/60 max-w-2xl mx-auto">
+              Insights on faith, mental health, and wellness to support your
+              journey.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {posts.slice(0, 3).map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div className="relative w-full aspect-[16/10]">
+                  <Image
+                    src={post.image}
+                    alt={post.imageAlt}
+                    fill
+                    className="object-cover group-hover:scale-[1.02] transition-transform duration-300"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                </div>
+                <div className="p-6">
+                  <span className="inline-block text-xs font-medium text-eden-olive bg-eden-sage/50 px-2.5 py-1 rounded-full mb-3">
+                    {post.category}
+                  </span>
+                  <h3 className="font-heading text-lg font-semibold text-eden-forest mb-2 group-hover:text-eden-olive transition-colors leading-snug">
+                    {post.title}
+                  </h3>
+                  <p className="text-eden-forest/60 text-sm leading-relaxed line-clamp-2">
+                    {post.excerpt}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="/blog"
+              className="inline-flex items-center text-eden-forest font-medium hover:text-eden-olive transition-colors group"
+            >
+              View all articles
+              <svg
+                className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="py-20 md:py-24">
