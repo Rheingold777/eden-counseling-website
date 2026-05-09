@@ -5,6 +5,23 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Get in touch with Eden Counseling and Wellness. Schedule a counseling session, ask a question, or learn more about faith-based telehealth counseling in Austin, TX.",
+  openGraph: {
+    title: "Contact Us | Eden Counseling and Wellness",
+    description:
+      "Ready to begin? Reach out to schedule a session, ask a question, or learn more about faith-based counseling in Austin, TX.",
+    url: "https://eden-counseling-website.vercel.app/contact",
+    images: [
+      {
+        url: "/images/eden-logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Eden Counseling and Wellness - Contact Us",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

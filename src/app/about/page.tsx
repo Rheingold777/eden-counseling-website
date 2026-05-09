@@ -6,6 +6,23 @@ export const metadata: Metadata = {
   title: "About Marissa Cooney",
   description:
     "Meet Marissa Cooney, LPC-Associate at Eden Counseling and Wellness. Learn about her background, mission, and approach to faith-based counseling in Austin, TX.",
+  openGraph: {
+    title: "About Marissa Cooney | Eden Counseling and Wellness",
+    description:
+      "Meet Marissa Cooney, LPC-Associate — a compassionate, faith-based counselor helping individuals and families heal and grow in Austin, TX.",
+    url: "https://eden-counseling-website.vercel.app/about",
+    images: [
+      {
+        url: "/images/marissa-headshot.jpg",
+        width: 1200,
+        height: 1500,
+        alt: "Marissa Cooney, LPC-Associate at Eden Counseling and Wellness",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

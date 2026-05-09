@@ -5,6 +5,23 @@ export const metadata: Metadata = {
   title: "Counseling Services",
   description:
     "Faith-based individual counseling, marriage counseling, and adolescent counseling offered through telehealth across Texas by Marissa Cooney, LPC-Associate.",
+  openGraph: {
+    title: "Counseling Services | Eden Counseling and Wellness",
+    description:
+      "Individual, marriage, and adolescent counseling rooted in faith. Evidence-based telehealth therapy available throughout Texas.",
+    url: "https://eden-counseling-website.vercel.app/services",
+    images: [
+      {
+        url: "/images/eden-logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Eden Counseling and Wellness - Counseling Services",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "/services",
+  },
 };
 
 export default function ServicesPage() {

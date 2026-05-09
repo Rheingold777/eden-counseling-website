@@ -44,6 +44,9 @@ export const metadata: Metadata = {
       "msvalidate.01": "E323B62E6D3D8C8218C5DE7A98A265A3",
     },
   },
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Eden Counseling and Wellness | Christian Counseling in Austin, TX",
     description:

@@ -8,6 +8,23 @@ export const metadata: Metadata = {
   title: "Resources & Blog",
   description:
     "Articles, insights, and resources on faith-based counseling, mental health, and wellness from Eden Counseling and Wellness in Austin, TX.",
+  openGraph: {
+    title: "Resources | Eden Counseling and Wellness",
+    description:
+      "Mental health resources, crisis information, and wellness articles from Eden Counseling and Wellness in Austin, TX.",
+    url: "https://eden-counseling-website.vercel.app/resources",
+    images: [
+      {
+        url: "/images/eden-logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Eden Counseling and Wellness Resources",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "/resources",
+  },
 };
 
 export default function ResourcesPage() {

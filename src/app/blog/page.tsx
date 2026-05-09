@@ -8,6 +8,23 @@ export const metadata: Metadata = {
   title: "Blog",
   description:
     "Articles on faith-based counseling, mental health, and wellness from Marissa Cooney, LPC-Associate, at Eden Counseling and Wellness in Austin, TX.",
+  openGraph: {
+    title: "Blog | Eden Counseling and Wellness",
+    description:
+      "Insights on faith, mental health, and wellness to support your journey — from Marissa Cooney, LPC-Associate in Austin, TX.",
+    url: "https://eden-counseling-website.vercel.app/blog",
+    images: [
+      {
+        url: "/images/eden-logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Eden Counseling and Wellness Blog",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "/blog",
+  },
 };
 
 export default function BlogPage() {

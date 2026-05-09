@@ -1,15 +1,62 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { FAQSchema } from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title: "Telehealth Counseling",
   description:
     "Online counseling sessions available throughout Texas. Learn what telehealth is, how it works, and what to expect from your virtual counseling session with Eden Counseling and Wellness.",
+  openGraph: {
+    title: "Telehealth Counseling | Eden Counseling and Wellness",
+    description:
+      "Professional online counseling from the comfort of your own space. Secure, HIPAA-compliant video sessions available throughout Texas.",
+    url: "https://eden-counseling-website.vercel.app/telehealth",
+    images: [
+      {
+        url: "/images/eden-logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Eden Counseling and Wellness - Telehealth Counseling",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "/telehealth",
+  },
 };
+
+const telehealthFAQs = [
+  {
+    question: "What is telehealth counseling?",
+    answer:
+      "Telehealth counseling allows you to meet with your counselor through a secure, HIPAA-compliant video platform from wherever you are. All you need is a private space, a reliable internet connection, and a device with a camera and microphone.",
+  },
+  {
+    question: "Is telehealth counseling as effective as in-person therapy?",
+    answer:
+      "Yes. Research shows telehealth counseling is just as effective as in-person sessions. You receive the same evidence-based therapeutic approaches, confidentiality protections, and personal attention.",
+  },
+  {
+    question: "Who can use telehealth counseling in Texas?",
+    answer:
+      "Telehealth counseling is available to anyone who is physically located in the state of Texas at the time of the session. This is based on where you are during the session, not where you live permanently.",
+  },
+  {
+    question: "How do I schedule a telehealth session?",
+    answer:
+      "You can schedule through Psychology Today, call (512) 543-2852, or use the contact form on this site. You'll receive a link to a secure video platform before your appointment.",
+  },
+  {
+    question: "What do I need for a telehealth session?",
+    answer:
+      "You need a quiet, private space with a reliable internet connection and a device with a camera and microphone (smartphone, tablet, or computer).",
+  },
+];
 
 export default function TelehealthPage() {
   return (
     <>
+      <FAQSchema faqs={telehealthFAQs} />
       <section className="bg-eden-sage/40 py-16 md:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <h1 className="font-heading text-4xl md:text-5xl font-semibold text-eden-forest mb-4">
