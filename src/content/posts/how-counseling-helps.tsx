@@ -282,8 +282,9 @@ export default function HowCounselingHelpsPost() {
           your first session
         </a>{" "}
         might look like, that&rsquo;s a great next step. And if you&rsquo;re
-        ready to start the conversation, Eden Counseling offers telehealth
-        therapy throughout the state of Texas&mdash;so you can begin from
+        ready to start the conversation, Eden Counseling offers{" "}
+        <a href="/telehealth">telehealth
+        therapy</a> throughout the state of Texas&mdash;so you can begin from
         wherever you are.
       </p>
 

@@ -237,9 +237,11 @@ export default function DavidAndSaulPost() {
       </p>
 
       <p>
-        Eden Counseling offers telehealth therapy throughout the state of Texas,
+        <a href="/about">Eden Counseling</a> offers{" "}
+        <a href="/telehealth">telehealth therapy</a> throughout the state of Texas,
         so you can get the support you need from wherever you are. If you&rsquo;re
-        ready to take that first step, I&rsquo;d love to hear from you.
+        ready to take that first step, I&rsquo;d love to{" "}
+        <a href="/contact">hear from you</a>.
       </p>
 
       <p>

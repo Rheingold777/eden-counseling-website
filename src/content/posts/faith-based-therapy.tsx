@@ -294,7 +294,9 @@ export default function FaithBasedTherapyPost() {
 
       <p>
         If you&rsquo;ve been wondering whether faith-based therapy might be
-        right for you, the best next step is a conversation. No pressure, no
+        right for you, the best next step is a conversation. Learn more about our{" "}
+        <a href="/services">counseling services</a> or explore how{" "}
+        <a href="/telehealth">telehealth therapy</a> works. No pressure, no
         commitment&mdash;just a chance to see if it feels like the right fit.
       </p>
 

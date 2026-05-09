@@ -179,8 +179,9 @@ export default function PhysicalWellbeingContent() {
           book a free consultation on Psychology Today
         </a>{" "}
         or call me directly at{" "}
-        <a href="tel:5125432852">(512) 543-2852</a>. I serve clients across Texas through
-        telehealth, and I&rsquo;m here when you&rsquo;re ready.
+        <a href="tel:5125432852">(512) 543-2852</a>. I{" "}
+        <a href="/services">serve clients</a> across Texas through{" "}
+        <a href="/telehealth">telehealth</a>, and I&rsquo;m here when you&rsquo;re ready.
       </p>
     </>
   );

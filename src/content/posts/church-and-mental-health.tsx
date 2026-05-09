@@ -183,8 +183,9 @@ export default function ChurchAndMentalHealthContent() {
           book a free consultation on Psychology Today
         </a>{" "}
         or call me directly at{" "}
-        <a href="tel:5125432852">(512) 543-2852</a>. I serve clients across the state of Texas
-        through telehealth, and I would be honored to walk alongside you.
+        <a href="tel:5125432852">(512) 543-2852</a>. I{" "}
+        <a href="/services">serve clients</a> across the state of Texas
+        through <a href="/telehealth">telehealth</a>, and I would be honored to walk alongside you.
       </p>
     </>
   );

@@ -287,7 +287,8 @@ export default function FirstSessionPost() {
       </p>
 
       <p>
-        Eden Counseling offers telehealth therapy throughout the state of
+        <a href="/about">Eden Counseling</a> offers{" "}
+        <a href="/telehealth">telehealth therapy</a> throughout the state of
         Texas. If you&rsquo;re ready, I&rsquo;d love to be the person on the
         other side of that first session with you.
       </p>
