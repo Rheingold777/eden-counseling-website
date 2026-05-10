@@ -127,7 +127,7 @@ export function ContactForm() {
       >
         Send Message
       </button>
-      <p className="text-xs text-eden-forest/40">
+      <p className="text-xs text-eden-forest/70">
         This form is for general inquiries only. Please do not include
         sensitive health information. For immediate scheduling, use
         Psychology Today or call directly.

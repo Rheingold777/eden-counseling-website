@@ -8,6 +8,9 @@ import ChurchAndMentalHealthContent from "@/content/posts/church-and-mental-heal
 import PhysicalWellbeingContent from "@/content/posts/physical-wellbeing";
 import HowCounselingHelpsContent from "@/content/posts/how-counseling-helps";
 import FirstSessionContent from "@/content/posts/first-session";
+import AnxietyAndFaithContent from "@/content/posts/anxiety-and-faith";
+import TelehealthTexasContent from "@/content/posts/telehealth-texas";
+import SignsCounselingContent from "@/content/posts/signs-counseling";
 
 const contentMap: Record<string, React.ComponentType> = {
   "david-and-saul-mental-wellness": DavidAndSaulContent,
@@ -16,6 +19,9 @@ const contentMap: Record<string, React.ComponentType> = {
   "physical-health-mental-wellness": PhysicalWellbeingContent,
   "how-can-counseling-help-me": HowCounselingHelpsContent,
   "what-to-expect-first-therapy-session": FirstSessionContent,
+  "anxiety-and-faith": AnxietyAndFaithContent,
+  "telehealth-therapy-texas": TelehealthTexasContent,
+  "signs-you-could-benefit-from-counseling": SignsCounselingContent,
 };
 
 export function generateStaticParams() {

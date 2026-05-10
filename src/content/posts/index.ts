@@ -112,6 +112,54 @@ export const posts: BlogPost[] = [
     date: "2026-07-08",
     readTime: "6 min read",
   },
+  {
+    slug: "anxiety-and-faith",
+    title: "Anxiety and Faith: Finding Peace When Worry Takes Over",
+    metaTitle: "Anxiety and Faith: Finding Peace When Worry Takes Over",
+    metaDescription:
+      "Anxiety doesn’t mean your faith is weak. Learn how faith and professional counseling can work together to help you find peace. Faith-based therapy in Texas.",
+    excerpt:
+      "Anxiety doesn’t mean your faith is weak. Here’s how faith and professional counseling can work together to help you find peace.",
+    category: "Faith & Wellness",
+    targetKeyword: "anxiety and faith",
+    secondaryKeywords: ["Christian anxiety help", "faith-based anxiety counseling Texas", "Bible verses for anxiety"],
+    image: "/images/blog/anxiety-and-faith.jpg",
+    imageAlt: "Peaceful nature scene representing finding calm through faith during anxiety",
+    date: "2026-07-15",
+    readTime: "7 min read",
+  },
+  {
+    slug: "telehealth-therapy-texas",
+    title: "Telehealth Therapy in Texas: Everything You Need to Know",
+    metaTitle: "Telehealth Therapy in Texas: Everything You Need to Know",
+    metaDescription:
+      "Curious about online therapy? Learn how telehealth counseling works in Texas, why it’s effective, and how to get started with a licensed therapist.",
+    excerpt:
+      "Curious about online therapy? Here’s how telehealth counseling works in Texas, why it’s effective, and how to get started.",
+    category: "Getting Started",
+    targetKeyword: "telehealth therapy Texas",
+    secondaryKeywords: ["online counseling Texas", "virtual therapy Austin", "telehealth counseling benefits"],
+    image: "/images/blog/telehealth-texas.jpg",
+    imageAlt: "Comfortable home setup for telehealth therapy session in Texas",
+    date: "2026-07-22",
+    readTime: "6 min read",
+  },
+  {
+    slug: "signs-you-could-benefit-from-counseling",
+    title: "5 Signs You Might Benefit from Counseling (Even If You Think You’re Fine)",
+    metaTitle: "5 Signs You Might Benefit from Counseling (Even If You Think You’re Fine)",
+    metaDescription:
+      "You don’t have to be in crisis to benefit from therapy. Here are five signs that counseling could help — even when everything looks fine on the outside.",
+    excerpt:
+      "You don’t have to be in crisis to benefit from therapy. Here are five signs that counseling could help — even when everything looks fine on the outside.",
+    category: "Mental Health",
+    targetKeyword: "signs you need counseling",
+    secondaryKeywords: ["do I need therapy", "should I go to counseling", "when to see a therapist"],
+    image: "/images/blog/signs-counseling.jpg",
+    imageAlt: "Thoughtful person considering whether counseling could help them",
+    date: "2026-07-29",
+    readTime: "6 min read",
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

@@ -60,6 +60,7 @@ export function NewsletterSignup({
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Your email"
+              aria-label="Email address for newsletter signup"
               required
               className="flex-1 px-3 py-2 rounded-lg bg-white/10 border border-white/20 text-white text-sm placeholder:text-white/30 focus:outline-none focus:ring-1 focus:ring-eden-sage/50 focus:border-eden-sage/50 transition"
             />
@@ -82,7 +83,7 @@ export function NewsletterSignup({
         <h3 className="font-heading text-lg font-semibold text-eden-forest mb-2">
           {heading}
         </h3>
-        <p className="text-sm text-eden-forest/60 mb-4">{description}</p>
+        <p className="text-sm text-eden-forest/70 mb-4">{description}</p>
         {status === "success" ? (
           <p className="text-sm text-eden-olive font-medium">
             You&rsquo;re in! Check your inbox for a welcome email and your free grounding guide.
@@ -94,6 +95,7 @@ export function NewsletterSignup({
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Your email address"
+              aria-label="Email address for newsletter signup"
               required
               className="flex-1 px-4 py-2.5 rounded-lg border border-eden-sage bg-white text-eden-forest text-sm placeholder:text-eden-forest/30 focus:outline-none focus:ring-2 focus:ring-eden-olive/30 focus:border-eden-olive transition"
             />
@@ -121,7 +123,7 @@ export function NewsletterSignup({
         <h2 className="font-heading text-3xl font-semibold text-eden-forest mb-4">
           {heading}
         </h2>
-        <p className="text-eden-forest/60 mb-8">{description}</p>
+        <p className="text-eden-forest/70 mb-8">{description}</p>
         {status === "success" ? (
           <div className="bg-white rounded-xl p-6 shadow-sm">
             <p className="text-eden-forest font-medium mb-2">
@@ -140,6 +142,7 @@ export function NewsletterSignup({
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Your email address"
+                aria-label="Email address for newsletter signup"
                 required
                 className="flex-1 px-4 py-3 rounded-lg border border-eden-sage bg-white text-eden-forest placeholder:text-eden-forest/30 focus:outline-none focus:ring-2 focus:ring-eden-olive/30 focus:border-eden-olive transition"
               />
@@ -151,7 +154,7 @@ export function NewsletterSignup({
                 {status === "loading" ? "Subscribing..." : "Get Your Free Guide"}
               </button>
             </form>
-            <p className="text-xs text-eden-forest/40 mt-3">
+            <p className="text-xs text-eden-forest/70 mt-3">
               No spam, unsubscribe anytime. You&rsquo;ll also receive a free grounding techniques guide.
             </p>
           </>
