@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
     title: "About Marissa Cooney | Eden Counseling and Wellness",
     description:
       "Meet Marissa Cooney, LPC-Associate — a compassionate, faith-based counselor helping individuals and families heal and grow in Austin, TX.",
-    url: "https://eden-counseling-website.vercel.app/about",
+    url: "https://edencounselingwellness.com/about",
     images: [
       {
         url: "/images/marissa-headshot.jpg",
@@ -166,6 +167,22 @@ export default function AboutPage() {
                 <span>National Counselor Exam (NCE) — Passed</span>
               </li>
             </ul>
+            <div className="mt-5 flex flex-col sm:flex-row gap-3">
+              <a
+                href="https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-5 py-3 bg-eden-forest text-white text-sm font-medium rounded-lg hover:bg-eden-forest/90 transition-colors"
+              >
+                View Marissa&rsquo;s Psychology Today profile
+              </a>
+              <Link
+                href="/faqs/what-is-an-lpc-associate"
+                className="inline-flex items-center justify-center px-5 py-3 border border-eden-forest/20 text-eden-forest text-sm font-medium rounded-lg hover:bg-white/70 transition-colors"
+              >
+                Learn about LPC-Associate supervision
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -219,7 +236,7 @@ export default function AboutPage() {
             />
             <FAQ
               q="How do I schedule an appointment?"
-              a="The easiest way is through my Psychology Today profile. You can also call (512) 543-2852 or use the contact form on this site."
+              a="The easiest way is through my Psychology Today profile. You can also call (512) 601-8932 or use the contact form on this site."
             />
             <FAQ
               q="What issues do you help with?"

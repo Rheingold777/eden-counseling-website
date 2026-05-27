@@ -14,7 +14,9 @@ export function Footer() {
               &ldquo;Let&rsquo;s go back to the beginning.&rdquo;
             </p>
             <p className="text-sm leading-relaxed">
-              Marissa Cooney, LPC-Associate
+              <Link href="/about" className="hover:text-white transition-colors">
+                Marissa Cooney, LPC-Associate
+              </Link>
               <br />
               Supervised by Dr. Jennifer McCurrach, LPC-S
             </p>
@@ -28,6 +30,9 @@ export function Footer() {
               <li><Link href="/telehealth" className="hover:text-white transition-colors">Telehealth</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
               <li><Link href="/resources" className="hover:text-white transition-colors">Resources</Link></li>
+              <li><Link href="/areas" className="hover:text-white transition-colors">Areas Served</Link></li>
+              <li><Link href="/therapy" className="hover:text-white transition-colors">Therapy Topics</Link></li>
+              <li><Link href="/faqs" className="hover:text-white transition-colors">FAQs</Link></li>
             </ul>
           </div>
 
@@ -37,8 +42,8 @@ export function Footer() {
             <h4 className="font-heading text-lg font-semibold text-white mb-3">Get in Touch</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="tel:5125432852" className="hover:text-white transition-colors">
-                  (512) 543-2852
+                <a href="tel:5126018932" className="hover:text-white transition-colors">
+                  (512) 601-8932
                 </a>
               </li>
               <li>

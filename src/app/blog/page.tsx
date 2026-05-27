@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Blog | Eden Counseling and Wellness",
     description:
       "Insights on faith, mental health, and wellness to support your journey — from Marissa Cooney, LPC-Associate in Austin, TX.",
-    url: "https://eden-counseling-website.vercel.app/blog",
+    url: "https://edencounselingwellness.com/blog",
     images: [
       {
         url: "/images/eden-logo.jpeg",
@@ -51,7 +51,7 @@ export default function BlogPage() {
                 href={`/blog/${post.slug}`}
                 className="group bg-white rounded-xl overflow-hidden shadow-sm border border-eden-sage/30 hover:shadow-md transition-shadow"
               >
-                <div className="relative w-full aspect-[16/9]">
+                <div className="relative w-full aspect-[16/9] bg-eden-sage/30 overflow-hidden">
                   <Image
                     src={post.image}
                     alt={post.imageAlt}

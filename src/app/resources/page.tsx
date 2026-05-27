@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Resources | Eden Counseling and Wellness",
     description:
       "Crisis hotlines, recommended reading, free guides, and mental health resources from Eden Counseling and Wellness.",
-    url: "https://eden-counseling-website.vercel.app/resources",
+    url: "https://edencounselingwellness.com/resources",
     images: [
       {
         url: "/images/eden-logo.jpeg",
@@ -178,6 +178,54 @@ export default function ResourcesPage() {
         </div>
       </section>
 
+      {/* Authority Hubs */}
+      <section className="py-16 md:py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-eden-forest mb-3">
+            Local and Counseling Guides
+          </h2>
+          <p className="text-eden-forest/70 mb-8">
+            Browse practical pages for local counseling searches, therapy topics,
+            and common questions before starting care.
+          </p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link
+              href="/areas"
+              className="bg-white rounded-xl p-6 border border-eden-sage/30 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <h3 className="font-heading text-xl font-semibold text-eden-forest mb-2">
+                Local Areas
+              </h3>
+              <p className="text-sm text-eden-forest/60">
+                Buda, Kyle, South Austin, Circle C, Slaughter Lane, and nearby communities.
+              </p>
+            </Link>
+            <Link
+              href="/therapy"
+              className="bg-white rounded-xl p-6 border border-eden-sage/30 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <h3 className="font-heading text-xl font-semibold text-eden-forest mb-2">
+                Therapy Topics
+              </h3>
+              <p className="text-sm text-eden-forest/60">
+                Anxiety, depression, grief, teen counseling, marriage counseling, and faith.
+              </p>
+            </Link>
+            <Link
+              href="/faqs"
+              className="bg-white rounded-xl p-6 border border-eden-sage/30 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <h3 className="font-heading text-xl font-semibold text-eden-forest mb-2">
+                FAQs
+              </h3>
+              <p className="text-sm text-eden-forest/60">
+                Cost, insurance, telehealth, LPC-Associate supervision, scheduling, and crisis support.
+              </p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Blog CTA */}
       <section className="py-16 md:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
@@ -186,7 +234,11 @@ export default function ResourcesPage() {
           </h2>
           <p className="text-eden-forest/70 mb-6 max-w-xl mx-auto">
             Explore articles on faith, mental health, and practical wellness
-            tips written by Marissa Cooney, LPC-Associate.
+            tips written by{" "}
+            <Link href="/about" className="text-eden-forest font-medium hover:text-eden-olive transition-colors">
+              Marissa Cooney, LPC-Associate
+            </Link>
+            .
           </p>
           <Link
             href="/blog"

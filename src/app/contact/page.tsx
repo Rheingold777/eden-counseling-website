@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Contact Us | Eden Counseling and Wellness",
     description:
       "Ready to begin? Reach out to schedule a session, ask a question, or learn more about faith-based counseling in Austin, TX.",
-    url: "https://eden-counseling-website.vercel.app/contact",
+    url: "https://edencounselingwellness.com/contact",
     images: [
       {
         url: "/images/eden-logo.jpeg",
@@ -56,8 +56,8 @@ export default function ContactPage() {
                     </svg>
                   }
                   label="Phone"
-                  value="(512) 543-2852"
-                  href="tel:5125432852"
+                  value="(512) 601-8932"
+                  href="tel:5126018932"
                 />
                 <ContactItem
                   icon={

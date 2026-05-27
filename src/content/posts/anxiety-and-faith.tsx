@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AnxietyAndFaithPost() {
   return (
     <>
@@ -102,9 +104,9 @@ export default function AnxietyAndFaithPost() {
         If you&rsquo;re curious about the connection between what happens
         in your body and how you feel mentally, I wrote more about that
         in{" "}
-        <a href="/blog/physical-health-mental-wellness">
+        <Link href="/blog/physical-health-mental-wellness">
           this post on physical health and mental wellness
-        </a>
+        </Link>
         .
       </p>
 
@@ -121,9 +123,9 @@ export default function AnxietyAndFaithPost() {
 
       <p>
         In{" "}
-        <a href="/blog/is-faith-based-therapy-right-for-you">
+        <Link href="/blog/is-faith-based-therapy-right-for-you">
           faith-based therapy
-        </a>
+        </Link>
         , we don&rsquo;t set your beliefs aside to do clinical work. We
         bring them into the room. That might look like:
       </p>
@@ -230,9 +232,9 @@ export default function AnxietyAndFaithPost() {
       <p>
         If you&rsquo;re not sure whether what you&rsquo;re experiencing
         is &ldquo;bad enough&rdquo; for counseling, take a look at{" "}
-        <a href="/blog/signs-you-could-benefit-from-counseling">
+        <Link href="/blog/signs-you-could-benefit-from-counseling">
           these five signs that counseling could help
-        </a>
+        </Link>
         . The bar is a lot lower than most people think.
       </p>
 
@@ -255,8 +257,8 @@ export default function AnxietyAndFaithPost() {
       </p>
 
       <p>
-        <a href="/about">Eden Counseling and Wellness</a> offers{" "}
-        <a href="/telehealth">telehealth therapy</a> throughout Texas for
+        <Link href="/about">Eden Counseling and Wellness</Link> offers{" "}
+        <Link href="/telehealth">telehealth therapy</Link> throughout Texas for
         individuals, couples, and adolescents. If you&rsquo;re ready to
         talk&mdash;or even if you&rsquo;re just curious what it would look
         like&mdash;I&rsquo;d love to hear from you.
@@ -271,7 +273,7 @@ export default function AnxietyAndFaithPost() {
           Schedule a free consultation through Psychology Today
         </a>{" "}
         or call{" "}
-        <a href="tel:+15125432852">(512) 543-2852</a>.
+        <a href="tel:+15126018932">(512) 601-8932</a>.
       </p>
 
       <p>

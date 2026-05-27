@@ -38,7 +38,9 @@ export function BlogLayout({ post, children }: BlogLayoutProps) {
             {post.title}
           </h1>
           <div className="flex items-center gap-4 text-sm text-eden-forest/60">
-            <span>Marissa Cooney, LPC-Associate</span>
+            <Link href="/about" className="hover:text-eden-forest transition-colors">
+              Marissa Cooney, LPC-Associate
+            </Link>
             <span aria-hidden="true">&middot;</span>
             <time dateTime={post.date}>
               {new Date(post.date).toLocaleDateString("en-US", {
@@ -89,7 +91,9 @@ export function BlogLayout({ post, children }: BlogLayoutProps) {
             </div>
             <div>
               <p className="font-heading text-lg font-semibold text-eden-forest">
-                Marissa Cooney, LPC-Associate
+                <Link href="/about" className="hover:text-eden-olive transition-colors">
+                  Marissa Cooney, LPC-Associate
+                </Link>
               </p>
               <p className="text-sm text-eden-forest/60 mt-1">
                 Supervised by Dr. Jennifer McCurrach, LPC-S
@@ -99,6 +103,14 @@ export function BlogLayout({ post, children }: BlogLayoutProps) {
                 faith-informed telehealth therapy to individuals, adolescents, and couples
                 throughout Texas.
               </p>
+              <a
+                href="https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex mt-3 text-sm font-medium text-eden-olive hover:text-eden-forest transition-colors"
+              >
+                View Marissa&rsquo;s Psychology Today profile
+              </a>
             </div>
           </div>
         </div>
@@ -124,10 +136,10 @@ export function BlogLayout({ post, children }: BlogLayoutProps) {
               Book on Psychology Today
             </a>
             <a
-              href="tel:5125432852"
+              href="tel:5126018932"
               className="inline-flex items-center justify-center px-6 py-3 bg-white/10 text-white font-medium rounded-lg hover:bg-white/20 transition-colors border border-white/20"
             >
-              Call (512) 543-2852
+              Call (512) 601-8932
             </a>
           </div>
         </div>

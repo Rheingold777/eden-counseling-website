@@ -51,7 +51,12 @@ export default function Home() {
                 />
               </div>
               <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg px-6 py-4">
-                <p className="font-heading text-eden-forest font-semibold">Marissa Cooney</p>
+                <Link
+                  href="/about"
+                  className="font-heading text-eden-forest font-semibold hover:text-eden-olive transition-colors"
+                >
+                  Marissa Cooney
+                </Link>
                 <p className="text-sm text-eden-forest/60">LPC-Associate</p>
               </div>
             </div>
@@ -116,7 +121,11 @@ export default function Home() {
                 Meet Marissa
               </h2>
               <p className="text-eden-forest/70 leading-relaxed mb-4">
-                I&rsquo;m Marissa Cooney, an Austin, Texas original. I graduated with
+                I&rsquo;m{" "}
+                <Link href="/about" className="text-eden-forest font-medium hover:text-eden-olive transition-colors">
+                  Marissa Cooney
+                </Link>
+                , an Austin, Texas original. I graduated with
                 my master&rsquo;s degree in Clinical Mental Health Counseling from
                 Liberty University in 2025.
               </p>

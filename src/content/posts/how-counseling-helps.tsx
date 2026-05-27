@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HowCounselingHelpsPost() {
   return (
     <>
@@ -177,9 +179,9 @@ export default function HowCounselingHelpsPost() {
         </li>
         <li>
           <strong>
-            <a href="/blog/is-faith-based-therapy-right-for-you">
+            <Link href="/blog/is-faith-based-therapy-right-for-you">
               Christian counseling
-            </a>
+            </Link>
           </strong>{" "}
           &mdash; For those who want it, faith can be a powerful part of the
           therapeutic process. At Eden Counseling, faith integration is
@@ -278,13 +280,13 @@ export default function HowCounselingHelpsPost() {
 
       <p>
         If you&rsquo;re curious about what{" "}
-        <a href="/blog/what-to-expect-first-therapy-session">
+        <Link href="/blog/what-to-expect-first-therapy-session">
           your first session
-        </a>{" "}
+        </Link>{" "}
         might look like, that&rsquo;s a great next step. And if you&rsquo;re
         ready to start the conversation, Eden Counseling offers{" "}
-        <a href="/telehealth">telehealth
-        therapy</a> throughout the state of Texas&mdash;so you can begin from
+        <Link href="/telehealth">telehealth
+        therapy</Link> throughout the state of Texas&mdash;so you can begin from
         wherever you are.
       </p>
 
@@ -297,7 +299,7 @@ export default function HowCounselingHelpsPost() {
           Schedule a free consultation through Psychology Today
         </a>{" "}
         or call{" "}
-        <a href="tel:+15125432852">(512) 543-2852</a>.
+        <a href="tel:+15126018932">(512) 601-8932</a>.
       </p>
 
       <p>

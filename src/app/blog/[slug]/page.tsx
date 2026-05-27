@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { posts, getPostBySlug, getAllSlugs } from "@/content/posts";
+import { getPostBySlug, getAllSlugs } from "@/content/posts";
 import { BlogLayout } from "@/components/BlogLayout";
 import DavidAndSaulContent from "@/content/posts/david-and-saul";
 import FaithBasedTherapyContent from "@/content/posts/faith-based-therapy";

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function DavidAndSaulPost() {
   return (
     <>
@@ -173,9 +175,9 @@ export default function DavidAndSaulPost() {
       <h2>How Faith-Based Therapy Addresses These Dynamics</h2>
 
       <p>
-        <a href="/blog/is-faith-based-therapy-right-for-you">
+        <Link href="/blog/is-faith-based-therapy-right-for-you">
           Faith-based therapy
-        </a>{" "}
+        </Link>{" "}
         is not just quoting Bible verses at someone and hoping it helps.
         It&rsquo;s a clinically grounded approach that honors the whole person
         &mdash;mind, body, and spirit.
@@ -237,11 +239,11 @@ export default function DavidAndSaulPost() {
       </p>
 
       <p>
-        <a href="/about">Eden Counseling</a> offers{" "}
-        <a href="/telehealth">telehealth therapy</a> throughout the state of Texas,
+        <Link href="/about">Eden Counseling</Link> offers{" "}
+        <Link href="/telehealth">telehealth therapy</Link> throughout the state of Texas,
         so you can get the support you need from wherever you are. If you&rsquo;re
         ready to take that first step, I&rsquo;d love to{" "}
-        <a href="/contact">hear from you</a>.
+        <Link href="/contact">hear from you</Link>.
       </p>
 
       <p>
@@ -253,7 +255,7 @@ export default function DavidAndSaulPost() {
           Schedule a free consultation through Psychology Today
         </a>{" "}
         or call{" "}
-        <a href="tel:+15125432852">(512) 543-2852</a>.
+        <a href="tel:+15126018932">(512) 601-8932</a>.
       </p>
 
       <p>

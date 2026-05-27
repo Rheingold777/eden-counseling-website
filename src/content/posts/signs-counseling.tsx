@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SignsCounselingPost() {
   return (
     <>
@@ -77,9 +79,9 @@ export default function SignsCounselingPost() {
         This is one of the things I work on most often in sessions.
         If you&rsquo;re curious about what that process looks like, I
         wrote about it in{" "}
-        <a href="/blog/how-can-counseling-help-me">
+        <Link href="/blog/how-can-counseling-help-me">
           how counseling can actually help you
-        </a>
+        </Link>
         .
       </p>
 
@@ -126,9 +128,9 @@ export default function SignsCounselingPost() {
 
       <p>
         The connection between{" "}
-        <a href="/blog/physical-health-mental-wellness">
+        <Link href="/blog/physical-health-mental-wellness">
           physical health and mental wellness
-        </a>{" "}
+        </Link>{" "}
         is real and well-documented. Your body keeps score, as the
         saying goes. When emotional pain doesn&rsquo;t have an outlet,
         it often finds a physical one.
@@ -174,9 +176,9 @@ export default function SignsCounselingPost() {
       <p>
         If you&rsquo;re interested in how faith and therapy work
         together, I explore that more in{" "}
-        <a href="/blog/church-and-mental-health">
+        <Link href="/blog/church-and-mental-health">
           this post about the church and mental health
-        </a>
+        </Link>
         .
       </p>
 
@@ -194,14 +196,14 @@ export default function SignsCounselingPost() {
       </p>
 
       <p>
-        At <a href="/about">Eden Counseling</a>, I offer{" "}
-        <a href="/telehealth">telehealth therapy</a> throughout Texas,
+        At <Link href="/about">Eden Counseling</Link>, I offer{" "}
+        <Link href="/telehealth">telehealth therapy</Link> throughout Texas,
         which means you can do that first session from wherever you
         feel most comfortable. For a full walkthrough of what to expect,
         here&rsquo;s my{" "}
-        <a href="/blog/what-to-expect-first-therapy-session">
+        <Link href="/blog/what-to-expect-first-therapy-session">
           guide to your first counseling session
-        </a>
+        </Link>
         .
       </p>
 
@@ -221,7 +223,7 @@ export default function SignsCounselingPost() {
           Schedule a free consultation through Psychology Today
         </a>{" "}
         or call{" "}
-        <a href="tel:+15125432852">(512) 543-2852</a>.
+        <a href="tel:+15126018932">(512) 601-8932</a>.
       </p>
 
       <p>

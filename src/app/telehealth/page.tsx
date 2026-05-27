@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Telehealth Counseling | Eden Counseling and Wellness",
     description:
       "Professional online counseling from the comfort of your own space. Secure, HIPAA-compliant video sessions available throughout Texas.",
-    url: "https://eden-counseling-website.vercel.app/telehealth",
+    url: "https://edencounselingwellness.com/telehealth",
     images: [
       {
         url: "/images/eden-logo.jpeg",
@@ -44,7 +44,7 @@ const telehealthFAQs = [
   {
     question: "How do I schedule a telehealth session?",
     answer:
-      "You can schedule through Psychology Today, call (512) 543-2852, or use the contact form on this site. You'll receive a link to a secure video platform before your appointment.",
+      "You can schedule through Psychology Today, call (512) 601-8932, or use the contact form on this site. You'll receive a link to a secure video platform before your appointment.",
   },
   {
     question: "What do I need for a telehealth session?",
@@ -145,7 +145,7 @@ export default function TelehealthPage() {
               {
                 step: "1",
                 title: "Schedule Your Session",
-                desc: "Reach out through Psychology Today, call (512) 543-2852, or use the contact form on this site.",
+                desc: "Reach out through Psychology Today, call (512) 601-8932, or use the contact form on this site.",
               },
               {
                 step: "2",

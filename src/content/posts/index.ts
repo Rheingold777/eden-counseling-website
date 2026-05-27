@@ -1,5 +1,3 @@
-import type { ReactNode } from "react";
-
 export interface BlogPost {
   slug: string;
   title: string;
@@ -123,7 +121,7 @@ export const posts: BlogPost[] = [
     category: "Faith & Wellness",
     targetKeyword: "anxiety and faith",
     secondaryKeywords: ["Christian anxiety help", "faith-based anxiety counseling Texas", "Bible verses for anxiety"],
-    image: "/images/blog/anxiety-and-faith.jpg",
+    image: "/images/blog/faith-based-therapy.jpg",
     imageAlt: "Peaceful nature scene representing finding calm through faith during anxiety",
     date: "2026-07-15",
     readTime: "7 min read",
@@ -139,7 +137,7 @@ export const posts: BlogPost[] = [
     category: "Getting Started",
     targetKeyword: "telehealth therapy Texas",
     secondaryKeywords: ["online counseling Texas", "virtual therapy Austin", "telehealth counseling benefits"],
-    image: "/images/blog/telehealth-texas.jpg",
+    image: "/images/blog/first-session.jpg",
     imageAlt: "Comfortable home setup for telehealth therapy session in Texas",
     date: "2026-07-22",
     readTime: "6 min read",
@@ -155,7 +153,7 @@ export const posts: BlogPost[] = [
     category: "Mental Health",
     targetKeyword: "signs you need counseling",
     secondaryKeywords: ["do I need therapy", "should I go to counseling", "when to see a therapist"],
-    image: "/images/blog/signs-counseling.jpg",
+    image: "/images/blog/how-counseling-helps.jpg",
     imageAlt: "Thoughtful person considering whether counseling could help them",
     date: "2026-07-29",
     readTime: "6 min read",

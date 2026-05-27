@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FaithBasedTherapyPost() {
   return (
     <>
@@ -181,9 +183,9 @@ export default function FaithBasedTherapyPost() {
         something you can&rsquo;t quite name&mdash;you&rsquo;re not a diagnosis.
         You&rsquo;re a whole person with a unique history, and therapy should
         honor that. If the{" "}
-        <a href="/blog/david-and-saul-mental-wellness">
+        <Link href="/blog/david-and-saul-mental-wellness">
           story of David and Saul
-        </a>{" "}
+        </Link>{" "}
         resonates with you&mdash;the tension between loving someone and needing
         to protect yourself&mdash;that&rsquo;s exactly the kind of thing we
         work through together.
@@ -251,9 +253,9 @@ export default function FaithBasedTherapyPost() {
       </p>
       <p>
         Pastors and{" "}
-        <a href="/blog/church-and-mental-health">
+        <Link href="/blog/church-and-mental-health">
           church communities
-        </a>{" "}
+        </Link>{" "}
         provide invaluable spiritual support. But a licensed therapist brings
         clinical training, diagnostic understanding, and evidence-based
         techniques that pastoral care typically does not include. The two can
@@ -295,8 +297,8 @@ export default function FaithBasedTherapyPost() {
       <p>
         If you&rsquo;ve been wondering whether faith-based therapy might be
         right for you, the best next step is a conversation. Learn more about our{" "}
-        <a href="/services">counseling services</a> or explore how{" "}
-        <a href="/telehealth">telehealth therapy</a> works. No pressure, no
+        <Link href="/services">counseling services</Link> or explore how{" "}
+        <Link href="/telehealth">telehealth therapy</Link> works. No pressure, no
         commitment&mdash;just a chance to see if it feels like the right fit.
       </p>
 
@@ -309,7 +311,7 @@ export default function FaithBasedTherapyPost() {
           Schedule a free consultation through Psychology Today
         </a>{" "}
         or call{" "}
-        <a href="tel:+15125432852">(512) 543-2852</a>.
+        <a href="tel:+15126018932">(512) 601-8932</a>.
       </p>
 
       <p>

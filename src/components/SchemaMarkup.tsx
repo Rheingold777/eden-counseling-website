@@ -1,6 +1,6 @@
 import type { BlogPost } from "@/content/posts";
 
-const BASE_URL = "https://eden-counseling-website.vercel.app";
+const BASE_URL = "https://edencounselingwellness.com";
 
 export function ArticleSchema({ post }: { post: BlogPost }) {
   const schema = {
@@ -65,15 +65,15 @@ export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "@id": "https://edencounselingandwellness.com/#organization",
+    "@id": `${BASE_URL}/#organization`,
     name: "Eden Counseling and Wellness, PLLC",
     alternateName: "Eden Counseling and Wellness",
     description:
       "Faith-based counseling for individuals, adolescents, and couples in Austin, Texas. Telehealth sessions available throughout Texas.",
-    url: "https://edencounselingandwellness.com",
-    telephone: "+1-512-543-2852",
+    url: BASE_URL,
+    telephone: "+1-512-601-8932",
     email: "info@edencounselingandwellness.com",
-    image: "https://edencounselingandwellness.com/images/eden-logo.jpeg",
+    image: `${BASE_URL}/images/eden-logo.jpeg`,
     priceRange: "$60-$100",
     paymentAccepted: "Credit Card, Debit Card",
     currenciesAccepted: "USD",
@@ -174,9 +174,9 @@ export function PersonSchema() {
     jobTitle: "LPC-Associate",
     description:
       "Licensed Professional Counselor Associate providing faith-based counseling in Austin, TX.",
-    url: "https://edencounselingandwellness.com/about",
-    image: "https://edencounselingandwellness.com/images/marissa-headshot.jpg",
-    telephone: "+1-512-543-2852",
+    url: `${BASE_URL}/about`,
+    image: `${BASE_URL}/images/marissa-headshot.jpg`,
+    telephone: "+1-512-601-8932",
     email: "info@edencounselingandwellness.com",
     worksFor: {
       "@type": "MedicalBusiness",

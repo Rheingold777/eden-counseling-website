@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ChurchAndMentalHealthContent() {
   return (
     <>
@@ -52,7 +54,7 @@ export default function ChurchAndMentalHealthContent() {
         with their mental and emotional health &mdash; and God never once shamed them for it.
       </p>
       <p>
-        <a href="/blog/david-and-saul-mental-wellness">David</a> &mdash; a man after
+        <Link href="/blog/david-and-saul-mental-wellness">David</Link> &mdash; a man after
         God&rsquo;s own heart &mdash; wrote psalms dripping with anguish. &ldquo;How long, O
         Lord? Will you forget me forever?&rdquo; (Psalm 13:1). That&rsquo;s not a man who had
         it all together. That&rsquo;s a man in pain, crying out honestly.
@@ -141,7 +143,7 @@ export default function ChurchAndMentalHealthContent() {
         space for spiritual integration where it fits. For some clients, that means exploring
         how theological messages they received growing up have shaped their self-image. For
         others, it means reconnecting with a faith that once brought them peace. And for some,{" "}
-        <a href="/blog/is-faith-based-therapy-right-for-you">faith-based therapy</a>{" "}
+        <Link href="/blog/is-faith-based-therapy-right-for-you">faith-based therapy</Link>{" "}
         means the spiritual piece doesn&rsquo;t come into sessions at all &mdash; and
         that&rsquo;s completely okay too.
       </p>
@@ -183,9 +185,9 @@ export default function ChurchAndMentalHealthContent() {
           book a free consultation on Psychology Today
         </a>{" "}
         or call me directly at{" "}
-        <a href="tel:5125432852">(512) 543-2852</a>. I{" "}
-        <a href="/services">serve clients</a> across the state of Texas
-        through <a href="/telehealth">telehealth</a>, and I would be honored to walk alongside you.
+        <a href="tel:5126018932">(512) 601-8932</a>. I{" "}
+        <Link href="/services">serve clients</Link> across the state of Texas
+        through <Link href="/telehealth">telehealth</Link>, and I would be honored to walk alongside you.
       </p>
     </>
   );

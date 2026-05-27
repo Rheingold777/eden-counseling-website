@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FirstSessionPost() {
   return (
     <>
@@ -136,15 +138,15 @@ export default function FirstSessionPost() {
 
       <p>
         Then I&rsquo;ll share a bit about{" "}
-        <a href="/blog/how-can-counseling-help-me">
+        <Link href="/blog/how-can-counseling-help-me">
           how I work
-        </a>{" "}
+        </Link>{" "}
         and which approaches might be a good fit for what you&rsquo;re
         dealing with&mdash;whether that&rsquo;s CBT, ACT, Narrative Therapy,
         or a combination. If you&rsquo;re interested in{" "}
-        <a href="/blog/is-faith-based-therapy-right-for-you">
+        <Link href="/blog/is-faith-based-therapy-right-for-you">
           faith integration
-        </a>
+        </Link>
         , we&rsquo;ll talk about what that might look like. If not, no
         pressure whatsoever.
       </p>
@@ -287,8 +289,8 @@ export default function FirstSessionPost() {
       </p>
 
       <p>
-        <a href="/about">Eden Counseling</a> offers{" "}
-        <a href="/telehealth">telehealth therapy</a> throughout the state of
+        <Link href="/about">Eden Counseling</Link> offers{" "}
+        <Link href="/telehealth">telehealth therapy</Link> throughout the state of
         Texas. If you&rsquo;re ready, I&rsquo;d love to be the person on the
         other side of that first session with you.
       </p>
@@ -302,7 +304,7 @@ export default function FirstSessionPost() {
           Schedule a free consultation through Psychology Today
         </a>{" "}
         or call{" "}
-        <a href="tel:+15125432852">(512) 543-2852</a>.
+        <a href="tel:+15126018932">(512) 601-8932</a>.
       </p>
 
       <p>

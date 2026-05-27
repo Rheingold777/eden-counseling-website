@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PhysicalWellbeingContent() {
   return (
     <>
@@ -78,7 +80,7 @@ export default function PhysicalWellbeingContent() {
       <h2>Why This Matters for Your Therapy Journey</h2>
       <p>
         Here&rsquo;s the simple truth:{" "}
-        <a href="/blog/how-can-counseling-help-me">your mind and spirit</a> operate
+        <Link href="/blog/how-can-counseling-help-me">your mind and spirit</Link> operate
         inside a body. If that body is chronically under-slept, under-nourished, or running on
         stress and caffeine, your nervous system is already on high alert before you even sit
         down for a session. Therapy can still help &mdash; absolutely. But when we also address
@@ -114,7 +116,7 @@ export default function PhysicalWellbeingContent() {
       </p>
       <p>
         A{" "}
-        <a href="/blog/is-faith-based-therapy-right-for-you">faith-based approach</a> to
+        <Link href="/blog/is-faith-based-therapy-right-for-you">faith-based approach</Link> to
         wellness doesn&rsquo;t mean ignoring science. It means holding science and faith
         together &mdash; recognizing that truth is truth wherever you find it, and that God
         designed both the body and the spirit to work in harmony.
@@ -179,9 +181,9 @@ export default function PhysicalWellbeingContent() {
           book a free consultation on Psychology Today
         </a>{" "}
         or call me directly at{" "}
-        <a href="tel:5125432852">(512) 543-2852</a>. I{" "}
-        <a href="/services">serve clients</a> across Texas through{" "}
-        <a href="/telehealth">telehealth</a>, and I&rsquo;m here when you&rsquo;re ready.
+        <a href="tel:5126018932">(512) 601-8932</a>. I{" "}
+        <Link href="/services">serve clients</Link> across Texas through{" "}
+        <Link href="/telehealth">telehealth</Link>, and I&rsquo;m here when you&rsquo;re ready.
       </p>
     </>
   );

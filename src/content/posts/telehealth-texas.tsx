@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function TelehealthTexasPost() {
   return (
     <>
@@ -110,9 +112,9 @@ export default function TelehealthTexasPost() {
       <p>
         For a more detailed walkthrough of what the first session looks
         like, check out{" "}
-        <a href="/blog/what-to-expect-first-therapy-session">
+        <Link href="/blog/what-to-expect-first-therapy-session">
           my guide to your first counseling session
-        </a>
+        </Link>
         .
       </p>
 
@@ -241,9 +243,9 @@ export default function TelehealthTexasPost() {
       <p>
         If you&rsquo;re wondering whether counseling is worth the
         investment in the first place, I wrote about{" "}
-        <a href="/blog/how-can-counseling-help-me">
+        <Link href="/blog/how-can-counseling-help-me">
           what therapy actually does (and doesn&rsquo;t do)
-        </a>{" "}
+        </Link>{" "}
         that might be helpful.
       </p>
 
@@ -267,12 +269,12 @@ export default function TelehealthTexasPost() {
       </p>
 
       <p>
-        <a href="/about">Eden Counseling and Wellness</a> offers{" "}
-        <a href="/services">telehealth therapy</a> to clients anywhere
+        <Link href="/about">Eden Counseling and Wellness</Link> offers{" "}
+        <Link href="/services">telehealth therapy</Link> to clients anywhere
         in Texas. Whether you&rsquo;re looking for{" "}
-        <a href="/blog/is-faith-based-therapy-right-for-you">
+        <Link href="/blog/is-faith-based-therapy-right-for-you">
           faith-based counseling
-        </a>{" "}
+        </Link>{" "}
         or simply a safe, professional space to talk, I&rsquo;m here.
       </p>
 
@@ -285,7 +287,7 @@ export default function TelehealthTexasPost() {
           Schedule a free consultation through Psychology Today
         </a>{" "}
         or call{" "}
-        <a href="tel:+15125432852">(512) 543-2852</a>.
+        <a href="tel:+15126018932">(512) 601-8932</a>.
       </p>
 
       <p>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Counseling Services | Eden Counseling and Wellness",
     description:
       "Individual, marriage, and adolescent counseling rooted in faith. Evidence-based telehealth therapy available throughout Texas.",
-    url: "https://eden-counseling-website.vercel.app/services",
+    url: "https://edencounselingwellness.com/services",
     images: [
       {
         url: "/images/eden-logo.jpeg",

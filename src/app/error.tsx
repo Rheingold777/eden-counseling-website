@@ -1,7 +1,6 @@
 "use client";
 
 export default function Error({
-  error,
   reset,
 }: {
   error: Error & { digest?: string };
@@ -25,10 +24,10 @@ export default function Error({
             Try Again
           </button>
           <a
-            href="tel:5125432852"
+            href="tel:5126018932"
             className="px-6 py-3 bg-eden-sage/40 text-eden-forest font-medium rounded-lg hover:bg-eden-sage/60 transition-colors"
           >
-            Call (512) 543-2852
+            Call (512) 601-8932
           </a>
         </div>
       </div>

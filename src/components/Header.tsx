@@ -27,7 +27,8 @@ export function Header() {
               alt="Eden Counseling and Wellness"
               width={50}
               height={50}
-              className="rounded"
+              className="rounded object-contain"
+              style={{ width: "50px", height: "50px" }}
             />
             <div className="hidden sm:block">
               <span className="font-heading text-eden-forest text-lg font-semibold leading-tight block">
