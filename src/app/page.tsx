@@ -24,20 +24,31 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
+                  href="tel:+15126018932"
+                  data-cta="hero-call"
+                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-eden-forest text-white font-semibold rounded-lg hover:bg-eden-forest/90 transition-colors"
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.733.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                    />
+                  </svg>
+                  Call (512) 601-8932
+                </a>
+                <a
                   href="https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-7 py-3.5 bg-eden-forest text-white font-medium rounded-lg hover:bg-eden-forest/90 transition-colors"
-                >
-                  Book a Session
-                </a>
-                <Link
-                  href="/about"
                   className="inline-flex items-center justify-center px-7 py-3.5 border-2 border-eden-forest/20 text-eden-forest font-medium rounded-lg hover:bg-eden-sage/50 transition-colors"
                 >
-                  Learn More
-                </Link>
+                  Book Online
+                </a>
               </div>
+              <p className="mt-4 text-sm text-eden-forest/60">
+                Leave a message — Marissa returns calls within 24 hours. Free 15-minute consult.
+              </p>
             </div>
             <div className="relative">
               <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-xl">
@@ -249,20 +260,31 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
+              href="tel:+15126018932"
+              data-cta="footer-call"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-eden-forest text-white font-semibold rounded-lg hover:bg-eden-forest/90 transition-colors text-lg"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.733.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+              Call (512) 601-8932
+            </a>
+            <a
               href="https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 bg-eden-forest text-white font-medium rounded-lg hover:bg-eden-forest/90 transition-colors text-lg"
-            >
-              Schedule Through Psychology Today
-            </a>
-            <Link
-              href="/contact"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-eden-forest/20 text-eden-forest font-medium rounded-lg hover:bg-eden-sage/50 transition-colors text-lg"
             >
-              Contact Us
-            </Link>
+              Book Online
+            </a>
           </div>
+          <p className="mt-5 text-sm text-eden-forest/60">
+            Leave a message — Marissa returns calls within 24 hours. Free 15-minute consult.
+          </p>
         </div>
       </section>
     </>

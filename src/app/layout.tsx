@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { MobileCallBar } from "@/components/MobileCallBar";
 import { LocalBusinessSchema, PersonSchema } from "@/components/SchemaMarkup";
 
 const cormorant = Cormorant_Garamond({
@@ -101,6 +102,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <MobileCallBar />
         <Script
           src="//cdn.callrail.com/companies/734174392/193a9a5832567f0d9e5d/12/swap.js"
           strategy="afterInteractive"
