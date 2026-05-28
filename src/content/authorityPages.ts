@@ -536,6 +536,306 @@ export const areaPages: AuthorityPage[] = [
       },
     ],
   },
+  {
+    kind: "area",
+    slug: "pflugerville",
+    title: "Christian Counseling for Pflugerville, TX",
+    shortTitle: "Pflugerville",
+    metaTitle: "Christian Counseling for Pflugerville, TX | Telehealth Therapy",
+    metaDescription:
+      "Faith-informed telehealth counseling for Pflugerville, TX adults, teens, and couples. Anxiety, depression, marriage, faith, and life transition support.",
+    primaryKeyword: "Christian counseling Pflugerville TX",
+    secondaryKeywords: ["Pflugerville therapist", "counseling Pflugerville", "faith-based therapy Pflugerville"],
+    intent: "Local counseling search for Pflugerville residents who want Christian-informed support.",
+    audience: "Pflugerville adults, teens, couples, and families across northeast Travis County.",
+    localSignals: ["Downtown Pflugerville", "Stone Hill Town Center", "Lake Pflugerville", "Heatherwilde", "FM 1825"],
+    sections: [
+      {
+        heading: "Counseling for Pflugerville families",
+        body:
+          "Pflugerville has grown into a busy bedroom community with families balancing tech industry jobs, school schedules, and a long commute. Eden offers telehealth counseling so clients can meet with a licensed therapist from home without adding another drive to the day.",
+      },
+      {
+        heading: "Support for the seasons of life",
+        body:
+          "Sessions can focus on anxiety, depression, burnout, parenting strain, marriage communication, grief, or a faith question that has become difficult to carry alone. The work is collaborative and paced to where you are starting from.",
+      },
+      {
+        heading: "Faith integration when it helps",
+        body:
+          "Christian counseling can include Scripture, prayer, and spiritual reflection when the client wants that approach. Eden does not use faith to bypass real pain; it makes space for honest healing alongside a relationship with God.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Eden Counseling have an office in Pflugerville?",
+        answer:
+          "No. Eden is telehealth-first. Pflugerville residents can meet online when physically located in Texas during the session.",
+      },
+      {
+        question: "Can Pflugerville teens use counseling?",
+        answer:
+          "Yes, teen counseling may be available for adolescents ages 13 and up when appropriate and with parent or guardian involvement.",
+      },
+    ],
+  },
+  {
+    kind: "area",
+    slug: "round-rock",
+    title: "Christian Counseling for Round Rock, TX",
+    shortTitle: "Round Rock",
+    metaTitle: "Christian Counseling for Round Rock, TX | Telehealth Therapy",
+    metaDescription:
+      "Faith-based telehealth counseling for Round Rock, TX clients. Support for anxiety, depression, marriage, parenting, faith, and life transitions.",
+    primaryKeyword: "Christian counseling Round Rock TX",
+    secondaryKeywords: ["Round Rock therapist", "counseling Round Rock", "faith-based therapy Round Rock"],
+    intent: "Local therapy search for Round Rock residents looking for Christian counseling.",
+    audience: "Round Rock adults, teens, couples, parents, and working professionals.",
+    localSignals: ["Downtown Round Rock", "La Frontera", "Old Settlers Park", "Brushy Creek", "I-35 corridor"],
+    sections: [
+      {
+        heading: "Counseling that fits Round Rock life",
+        body:
+          "Round Rock families often juggle dual incomes, kids' activities, school pressure, and the steady pace of life along the I-35 corridor. Eden offers telehealth counseling so clients can find space to process anxiety, relationship strain, faith questions, or grief without the added burden of a commute.",
+      },
+      {
+        heading: "Common reasons clients reach out",
+        body:
+          "Sessions can support anxiety, depression, burnout, marital conflict, parenting overwhelm, loss, life transitions, or the sense that something has changed and you cannot quite name it. Counseling is a place to slow down, get clarity, and build healthier patterns.",
+      },
+      {
+        heading: "Christian counseling, client-directed",
+        body:
+          "Faith can be part of the work for clients who want it. Eden integrates Scripture, prayer, and spiritual reflection when the client requests, and offers clinical-only sessions when faith is not the focus.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Eden a Round Rock office I can walk into?",
+        answer:
+          "No. Eden is telehealth-first. Round Rock residents can attend sessions online while physically located in Texas.",
+      },
+      {
+        question: "Does Eden see couples in Round Rock?",
+        answer:
+          "Marriage and couples counseling may be available on a case-by-case basis when both clients are in Texas.",
+      },
+    ],
+  },
+  {
+    kind: "area",
+    slug: "cedar-park",
+    title: "Christian Counseling for Cedar Park, TX",
+    shortTitle: "Cedar Park",
+    metaTitle: "Christian Counseling for Cedar Park, TX | Telehealth Therapy",
+    metaDescription:
+      "Faith-informed online counseling for Cedar Park, TX. Support for anxiety, depression, faith, relationships, parenting, and life transitions.",
+    primaryKeyword: "Christian counseling Cedar Park TX",
+    secondaryKeywords: ["Cedar Park therapist", "counseling Cedar Park", "faith-based therapy Cedar Park"],
+    intent: "Local counseling search for Cedar Park residents looking for Christian therapy.",
+    audience: "Cedar Park adults, teens, parents, couples, and growing families.",
+    localSignals: ["Cedar Park", "Lakeline Mall", "Brushy Creek Lake Park", "1890 Ranch", "183A toll"],
+    sections: [
+      {
+        heading: "Counseling for Cedar Park families",
+        body:
+          "Cedar Park is full of young families, busy professionals, and people who moved here for the schools or the proximity to tech work. Eden offers telehealth counseling for clients who want a thoughtful, faith-informed space to work through anxiety, marriage stress, parenting questions, or seasons of grief.",
+      },
+      {
+        heading: "Common reasons clients reach out",
+        body:
+          "Sessions can support anxiety, burnout, depression, communication problems, faith questions, parenting overwhelm, or the quiet sense that life has shifted and needs attention. The goal is steady, honest work toward clarity and healthier patterns.",
+      },
+      {
+        heading: "Faith as part of healing",
+        body:
+          "Clients who want Christian counseling can request integration of Scripture, prayer, and spiritual reflection. Faith is held with care alongside evidence-informed therapy practices.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can Cedar Park clients meet online?",
+        answer: sharedTelehealthNote,
+      },
+      {
+        question: "Is Christian counseling required?",
+        answer:
+          "No. Faith integration is optional and client-directed. Clients can request a clinical approach without explicit faith integration.",
+      },
+    ],
+  },
+  {
+    kind: "area",
+    slug: "leander",
+    title: "Christian Counseling for Leander, TX",
+    shortTitle: "Leander",
+    metaTitle: "Christian Counseling for Leander, TX | Telehealth Therapy",
+    metaDescription:
+      "Telehealth Christian counseling for Leander, TX adults, teens, and couples. Anxiety, faith, parenting, marriage, and life transitions.",
+    primaryKeyword: "Christian counseling Leander TX",
+    secondaryKeywords: ["Leander therapist", "counseling Leander", "faith-based therapy Leander"],
+    intent: "Local counseling search for Leander residents who want Christian therapy.",
+    audience: "Leander adults, teens, parents, and couples across northwest Williamson County.",
+    localSignals: ["Leander", "Crystal Falls", "Travisso", "183A corridor", "Cedar Park line"],
+    sections: [
+      {
+        heading: "Therapy that fits Leander's growth and pace",
+        body:
+          "Leander has grown quickly with new neighborhoods, longer commutes, and families settling in from across the country. Eden offers telehealth counseling so Leander clients can meet from home, take a real break in the middle of a busy week, and work on what is actually weighing on them.",
+      },
+      {
+        heading: "Support for stress, faith, and family life",
+        body:
+          "Sessions can address anxiety, depression, communication problems, parenting stress, grief, faith confusion, or a difficult life transition. The work is honest and paced; not rushed.",
+      },
+      {
+        heading: "Christian-informed when it helps",
+        body:
+          "Faith integration is available for clients who want Scripture, prayer, and spiritual reflection as part of care. Eden does not use faith to minimize struggle; it walks alongside it.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Eden have an office in Leander?",
+        answer:
+          "No. Eden is telehealth-first. Leander residents can attend sessions online while physically located in Texas.",
+      },
+      {
+        question: "How do Leander teens access counseling?",
+        answer:
+          "Teen counseling may be available for ages 13 and up with parent or guardian involvement.",
+      },
+    ],
+  },
+  {
+    kind: "area",
+    slug: "georgetown",
+    title: "Christian Counseling for Georgetown, TX",
+    shortTitle: "Georgetown",
+    metaTitle: "Christian Counseling for Georgetown, TX | Telehealth Therapy",
+    metaDescription:
+      "Faith-based telehealth counseling for Georgetown, TX residents. Support for anxiety, faith, relationships, grief, and life transitions.",
+    primaryKeyword: "Christian counseling Georgetown TX",
+    secondaryKeywords: ["Georgetown therapist", "counseling Georgetown TX", "faith-based therapy Georgetown"],
+    intent: "Local search for Christian counseling near Georgetown.",
+    audience: "Georgetown adults, retirees, parents, teens, couples, and Southwestern community.",
+    localSignals: ["Historic Georgetown Square", "Sun City", "Southwestern University", "Lake Georgetown", "Wolf Ranch"],
+    sections: [
+      {
+        heading: "Counseling for a community rooted in faith",
+        body:
+          "Georgetown has a strong faith community, a growing population of retirees, and many families settling in for the long term. Eden offers telehealth counseling for clients who want care that respects faith while taking real emotional and relational struggles seriously.",
+      },
+      {
+        heading: "Support across life stages",
+        body:
+          "Sessions can support anxiety, depression, grief, marriage stress, parenting, life transitions, and questions about purpose or faith. The goal is steady, paced work; not a checklist.",
+      },
+      {
+        heading: "Faith and clinical care together",
+        body:
+          "Christian counseling can integrate Scripture, prayer, and spiritual practices when the client wants. Eden also offers clinical-only sessions for clients who do not want faith content woven into therapy.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is counseling available for Sun City Georgetown residents?",
+        answer:
+          "Yes, Sun City and other Georgetown residents can meet online while physically located in Texas during the session.",
+      },
+      {
+        question: "Is Eden a walk-in office in Georgetown?",
+        answer:
+          "No. Eden is telehealth-first; sessions are video-based.",
+      },
+    ],
+  },
+  {
+    kind: "area",
+    slug: "lakeway",
+    title: "Christian Counseling for Lakeway, TX",
+    shortTitle: "Lakeway",
+    metaTitle: "Christian Counseling for Lakeway, TX | Telehealth Therapy",
+    metaDescription:
+      "Telehealth Christian counseling for Lakeway, Bee Cave, and Westlake clients. Anxiety, depression, marriage, faith, and life transitions.",
+    primaryKeyword: "Christian counseling Lakeway TX",
+    secondaryKeywords: ["Lakeway therapist", "counseling Bee Cave", "faith-based therapy Westlake"],
+    intent: "Local counseling search for Lakeway, Bee Cave, and Westlake-area residents.",
+    audience: "Lakeway, Bee Cave, Westlake, and Hill Country West Austin residents.",
+    localSignals: ["Lakeway", "Bee Cave", "Lake Travis", "Hill Country Galleria", "Westlake Hills"],
+    sections: [
+      {
+        heading: "Counseling for Hill Country West Austin life",
+        body:
+          "Lakeway, Bee Cave, and Westlake are full of families balancing demanding careers, school choices, and the privacy that comes with the area. Eden offers telehealth counseling so clients can attend sessions from home or another private space without crossing town.",
+      },
+      {
+        heading: "Common reasons clients reach out",
+        body:
+          "Sessions may focus on anxiety, depression, burnout, communication and marriage strain, grief, faith questions, or life transitions. Counseling is a place to slow down, get clarity, and rebuild healthier patterns.",
+      },
+      {
+        heading: "Faith integration on request",
+        body:
+          "Christian counseling can include Scripture, prayer, and spiritual reflection when desired. Faith is integrated with care, not used to bypass real emotional work.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do you offer in-person counseling in Lakeway or Bee Cave?",
+        answer:
+          "No. Eden is telehealth-first. Clients meet online while physically located in Texas.",
+      },
+      {
+        question: "Can Westlake clients use Eden Counseling?",
+        answer:
+          "Yes. Westlake, Lakeway, Bee Cave, and other Hill Country West Austin clients can meet via secure video sessions.",
+      },
+    ],
+  },
+  {
+    kind: "area",
+    slug: "dripping-springs",
+    title: "Christian Counseling for Dripping Springs, TX",
+    shortTitle: "Dripping Springs",
+    metaTitle: "Christian Counseling for Dripping Springs, TX | Telehealth Therapy",
+    metaDescription:
+      "Faith-based telehealth counseling for Dripping Springs, TX clients. Support for anxiety, faith, marriage, parenting, and life transitions.",
+    primaryKeyword: "Christian counseling Dripping Springs TX",
+    secondaryKeywords: ["Dripping Springs therapist", "counseling Dripping Springs", "faith-based therapy Dripping Springs"],
+    intent: "Local search for Christian counseling near Dripping Springs.",
+    audience: "Dripping Springs adults, teens, parents, and couples across Hill Country.",
+    localSignals: ["Dripping Springs", "Hill Country", "Hamilton Pool Road", "Highway 290", "Wimberley"],
+    sections: [
+      {
+        heading: "Counseling for Hill Country residents",
+        body:
+          "Dripping Springs has grown into a Hill Country community with families, ranchers, professionals, and a strong sense of faith. Eden offers telehealth counseling for clients who want thoughtful Christian-informed therapy without driving into Austin for every session.",
+      },
+      {
+        heading: "Support for what is actually heavy",
+        body:
+          "Sessions can address anxiety, marriage strain, parenting overwhelm, grief, faith confusion, burnout, or a transition that has been harder than expected. The work is steady, honest, and respectful of where you are starting.",
+      },
+      {
+        heading: "Christian counseling that holds tension",
+        body:
+          "Faith integration is available when the client wants it. Counseling can hold both genuine spiritual depth and the realities of emotional pain without flattening either.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do you have an office in Dripping Springs?",
+        answer:
+          "No. Eden is telehealth-first. Dripping Springs residents can attend sessions online while physically located in Texas.",
+      },
+      {
+        question: "Are sessions just for church members?",
+        answer:
+          "No. You do not need to be part of a specific church to request faith-informed counseling. Eden also offers clinical-only sessions when preferred.",
+      },
+    ],
+  },
 ];
 
 export const therapyPages: AuthorityPage[] = [
