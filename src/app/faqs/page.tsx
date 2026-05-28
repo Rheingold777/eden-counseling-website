@@ -5,7 +5,7 @@ import { faqPages } from "@/content/authorityPages";
 export const metadata: Metadata = {
   title: "Counseling FAQ",
   description:
-    "Answers to common questions about Eden Counseling and Wellness, telehealth, cost, LPC-Associate supervision, Christian counseling, teen counseling, and scheduling.",
+    "Common questions about Eden Counseling: telehealth, cost, LPC-Associate supervision, Christian counseling, teen counseling, and scheduling.",
   alternates: {
     canonical: "/faqs",
   },

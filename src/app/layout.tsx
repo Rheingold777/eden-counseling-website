@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: "%s | Eden Counseling and Wellness",
   },
   description:
-    "Faith-based counseling for individuals, adolescents, and couples in Austin, Texas. Marissa Cooney, LPC-Associate, offers compassionate telehealth counseling to help you heal, grow, and begin again.",
+    "Faith-based counseling for adults, teens, and couples in Austin, TX. Telehealth therapy with Marissa Cooney, LPC-Associate. Heal, grow, begin again.",
   keywords: [
     "Christian counseling Austin TX",
     "faith-based therapy Texas",

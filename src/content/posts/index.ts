@@ -17,9 +17,9 @@ export const posts: BlogPost[] = [
   {
     slug: "david-and-saul-mental-wellness",
     title: "David and Saul: What the Bible Teaches Us About Mental Wellness",
-    metaTitle: "David and Saul: What the Bible Teaches Us About Mental Wellness",
+    metaTitle: "David & Saul: Bible Lessons on Mental Wellness",
     metaDescription:
-      "What can the story of David and Saul teach us about anxiety, boundaries, and mental health? A faith-based counselor in Texas explores the biblical lesson and its modern relevance.",
+      "What does the story of David and Saul teach about anxiety, boundaries, and mental health? A faith-based counselor in Texas explores the lesson.",
     excerpt:
       "The story of David and Saul teaches us powerful lessons about emotional health, boundaries, and trusting God through difficult seasons.",
     category: "Faith & Wellness",
@@ -33,9 +33,9 @@ export const posts: BlogPost[] = [
   {
     slug: "is-faith-based-therapy-right-for-you",
     title: "Is Faith-Based Therapy Right for You? Benefits, Methods, and What to Expect",
-    metaTitle: "Is Faith-Based Therapy Right for You? Benefits, Methods, and What to Expect",
+    metaTitle: "Is Faith-Based Therapy Right for You? Benefits Guide",
     metaDescription:
-      "Wondering if faith-based therapy actually works? Learn how Christian counseling integrates scripture and clinical methods to support real healing — from an LPC in Texas.",
+      "Does faith-based therapy work? See how Christian counseling integrates scripture and clinical methods to support real healing. From an LPC in Texas.",
     excerpt:
       "What does faith-based counseling actually look like in practice? How can integrating your beliefs into therapy support real healing?",
     category: "Faith & Wellness",
@@ -49,9 +49,9 @@ export const posts: BlogPost[] = [
   {
     slug: "church-and-mental-health",
     title: "The Church and Mental Health: Bridging Faith and Therapy",
-    metaTitle: "The Church and Mental Health: Bridging Faith and Therapy",
+    metaTitle: "Church and Mental Health: Faith Meets Therapy",
     metaDescription:
-      "Why does mental health stigma persist in church communities? A Christian counselor explores how faith communities can better support mental wellness — and why therapy and prayer aren't at odds.",
+      "Why does mental health stigma persist in churches? A Christian counselor on how faith and therapy can work together — not against each other.",
     excerpt:
       "Why faith communities and professional counseling are not at odds — and how they can work together to support whole-person wellness.",
     category: "Faith & Wellness",
@@ -65,9 +65,9 @@ export const posts: BlogPost[] = [
   {
     slug: "physical-health-mental-wellness",
     title: "Bodily Exercise Profits Little, But It Still Profits: Physical Health and Mental Wellness",
-    metaTitle: "Bodily Exercise Profits Little, But It Still Profits: Physical Health and Mental Wellness",
+    metaTitle: "Physical Health & Mental Wellness: A Christian View",
     metaDescription:
-      "What does 1 Timothy 4:8 really mean for your mental health? A Christian counselor explores the connection between physical wellbeing, emotional health, and spiritual growth.",
+      "What does 1 Timothy 4:8 mean for your mental health? A Christian counselor on the link between physical wellness, emotional health, and faith.",
     excerpt:
       "A look at the connection between physical health and mental wellness, and why taking care of your body matters for your whole self.",
     category: "Wellness",
@@ -81,9 +81,9 @@ export const posts: BlogPost[] = [
   {
     slug: "how-can-counseling-help-me",
     title: "How Can Counseling Help Me? What Therapy Actually Does (and Doesn't Do)",
-    metaTitle: "How Can Counseling Help Me? What Therapy Actually Does (and Doesn't Do)",
+    metaTitle: "How Can Counseling Help Me? What Therapy Does",
     metaDescription:
-      "Wondering how counseling can help you? Learn what therapy actually looks like, what it can (and can't) do, and how to know if it's right for you. Telehealth in Texas.",
+      "How can counseling help you? Learn what therapy looks like, what it can (and can't) do, and how to know if it's right for you. Telehealth in Texas.",
     excerpt:
       "You don't have to be in crisis to benefit from counseling. Here's how therapy can help you grow, heal, and move forward — wherever you are.",
     category: "Mental Health",
@@ -97,9 +97,9 @@ export const posts: BlogPost[] = [
   {
     slug: "what-to-expect-first-therapy-session",
     title: "What to Expect in Your First Counseling Session: A Step-by-Step Guide",
-    metaTitle: "What to Expect in Your First Counseling Session: A Step-by-Step Guide",
+    metaTitle: "What to Expect in Your First Counseling Session",
     metaDescription:
-      "Nervous about your first therapy session? Here's exactly what happens, what to bring, and what your counselor is really thinking. Telehealth in Texas with Eden Counseling.",
+      "Nervous about your first therapy session? Here's what happens, what to bring, and what your counselor is thinking. Telehealth in Texas.",
     excerpt:
       "If you've never been to counseling before, it's normal to feel a mix of hope and nerves. Here's a simple guide to help you know what to expect.",
     category: "Getting Started",
@@ -145,7 +145,7 @@ export const posts: BlogPost[] = [
   {
     slug: "signs-you-could-benefit-from-counseling",
     title: "5 Signs You Might Benefit from Counseling (Even If You Think You’re Fine)",
-    metaTitle: "5 Signs You Might Benefit from Counseling (Even If You Think You’re Fine)",
+    metaTitle: "5 Signs You Might Benefit from Counseling",
     metaDescription:
       "You don’t have to be in crisis to benefit from therapy. Here are five signs that counseling could help — even when everything looks fine on the outside.",
     excerpt:

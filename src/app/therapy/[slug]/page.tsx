@@ -17,7 +17,7 @@ export async function generateMetadata({
   if (!page) return {};
 
   return {
-    title: page.metaTitle,
+    title: { absolute: page.metaTitle },
     description: page.metaDescription,
     keywords: [page.primaryKeyword, ...page.secondaryKeywords],
     alternates: {

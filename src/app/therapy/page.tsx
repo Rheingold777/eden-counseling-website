@@ -5,7 +5,7 @@ import { therapyPages } from "@/content/authorityPages";
 export const metadata: Metadata = {
   title: "Therapy Topics and Counseling Services",
   description:
-    "Faith-informed telehealth counseling pages for anxiety, depression, trauma-informed care, teen counseling, marriage counseling, grief, burnout, and life transitions.",
+    "Faith-informed telehealth counseling for anxiety, depression, trauma, teens, marriage, grief, burnout, and life transitions across Texas.",
   alternates: {
     canonical: "/therapy",
   },

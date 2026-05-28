@@ -5,7 +5,7 @@ import { FAQSchema } from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Telehealth Counseling",
   description:
-    "Online counseling sessions available throughout Texas. Learn what telehealth is, how it works, and what to expect from your virtual counseling session with Eden Counseling and Wellness.",
+    "Online counseling throughout Texas. Learn what telehealth is, how it works, and what to expect from your virtual session with Eden Counseling.",
   openGraph: {
     title: "Telehealth Counseling | Eden Counseling and Wellness",
     description:

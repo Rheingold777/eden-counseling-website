@@ -4,7 +4,7 @@ import { ContactForm } from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Eden Counseling and Wellness. Schedule a counseling session, ask a question, or learn more about faith-based telehealth counseling in Austin, TX.",
+    "Get in touch with Eden Counseling. Schedule a session, ask a question, or learn about faith-based telehealth counseling in Austin, TX.",
   openGraph: {
     title: "Contact Us | Eden Counseling and Wellness",
     description:
