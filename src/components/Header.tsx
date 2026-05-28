@@ -125,14 +125,13 @@ export function Header() {
             <p className="text-center text-xs text-eden-forest/60 pt-2">
               Leave a message — Marissa returns calls within 24 hours
             </p>
-            <a
-              href="https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/book"
+              onClick={() => setMobileOpen(false)}
               className="block mt-2 px-5 py-2.5 text-center text-sm text-eden-forest/80 underline"
             >
-              Or book online via Psychology Today →
-            </a>
+              Or request a consult online →
+            </Link>
           </div>
         </div>
       )}

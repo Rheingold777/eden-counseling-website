@@ -37,14 +37,12 @@ export default function Home() {
                   </svg>
                   Call (512) 601-8932
                 </a>
-                <a
-                  href="https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/book"
                   className="inline-flex items-center justify-center px-7 py-3.5 border-2 border-eden-forest/20 text-eden-forest font-medium rounded-lg hover:bg-eden-sage/50 transition-colors"
                 >
-                  Book Online
-                </a>
+                  Request a Consult
+                </Link>
               </div>
               <p className="mt-4 text-sm text-eden-forest/60">
                 Leave a message — Marissa returns calls within 24 hours. Free 15-minute consult.
@@ -273,14 +271,12 @@ export default function Home() {
               </svg>
               Call (512) 601-8932
             </a>
-            <a
-              href="https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/book"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-eden-forest/20 text-eden-forest font-medium rounded-lg hover:bg-eden-sage/50 transition-colors text-lg"
             >
-              Book Online
-            </a>
+              Request a Consult
+            </Link>
           </div>
           <p className="mt-5 text-sm text-eden-forest/60">
             Leave a message — Marissa returns calls within 24 hours. Free 15-minute consult.
