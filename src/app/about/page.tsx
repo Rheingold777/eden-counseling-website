@@ -212,6 +212,33 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Trust strip — verified external profiles */}
+      <section className="py-12 md:py-14 border-y border-eden-sage/40 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <p className="text-center text-xs uppercase tracking-wider font-medium text-eden-forest/50 mb-6">
+            Also Listed On
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
+            <a
+              href="https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-eden-forest/70 hover:text-eden-forest transition-colors font-heading text-base sm:text-lg"
+            >
+              Psychology Today
+            </a>
+            <a
+              href="https://www.conciergecounselingservice.com/marissa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-eden-forest/70 hover:text-eden-forest transition-colors font-heading text-base sm:text-lg"
+            >
+              Concierge Counseling Services
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Newsletter */}
       <section className="py-16 md:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
@@ -236,7 +263,7 @@ export default function AboutPage() {
             />
             <FAQ
               q="How do I schedule an appointment?"
-              a="The easiest way is through my Psychology Today profile. You can also call (512) 601-8932 or use the contact form on this site."
+              a="The fastest way is to call (512) 601-8932 — leave a message and I return calls within 24 hours, including a free 15-minute consultation. You can also request a time at edencounselingwellness.com/book."
             />
             <FAQ
               q="What issues do you help with?"

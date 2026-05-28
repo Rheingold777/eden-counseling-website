@@ -72,7 +72,7 @@ export function LocalBusinessSchema() {
       "Faith-based counseling for individuals, adolescents, and couples in Austin, Texas. Telehealth sessions available throughout Texas.",
     url: BASE_URL,
     telephone: "+1-512-601-8932",
-    email: "info@edencounselingandwellness.com",
+    email: "info@edencounselingwellness.com",
     image: `${BASE_URL}/images/eden-logo.jpeg`,
     priceRange: "$60-$100",
     paymentAccepted: "Credit Card, Debit Card",
@@ -177,7 +177,7 @@ export function PersonSchema() {
     url: `${BASE_URL}/about`,
     image: `${BASE_URL}/images/marissa-headshot.jpg`,
     telephone: "+1-512-601-8932",
-    email: "info@edencounselingandwellness.com",
+    email: "info@edencounselingwellness.com",
     worksFor: {
       "@type": "MedicalBusiness",
       name: "Eden Counseling and Wellness, PLLC",
@@ -205,7 +205,13 @@ export function PersonSchema() {
       "Adolescent Counseling",
     ],
     sameAs: [
+      // Verified external profiles — consolidates Marissa's digital identity
+      // for Google and disambiguates from other "Marissa Cooney" therapists.
       "https://www.psychologytoday.com/us/therapists/marissa-cooney-austin-tx/1467944",
+      "https://www.zocdoc.com/professional/marissa-cooney-lpc-associate-671460",
+      "https://openpathcollective.org/therapist/marissa-cooney/",
+      "https://www.emorahealth.com/providers/profile/10867874/marissa-cooney",
+      "https://www.conciergecounselingservice.com/marissa",
     ],
   };
 
