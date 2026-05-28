@@ -212,6 +212,8 @@ export function PersonSchema() {
       "https://openpathcollective.org/therapist/marissa-cooney/",
       "https://www.emorahealth.com/providers/profile/10867874/marissa-cooney",
       "https://www.conciergecounselingservice.com/marissa",
+      "https://www.zoominfo.com/p/Marissa-Cooney/2370416100",
+      "https://rocketreach.co/marissa-cooney-email_251500891",
     ],
   };
 

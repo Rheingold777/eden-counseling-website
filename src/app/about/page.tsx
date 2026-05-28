@@ -228,6 +228,14 @@ export default function AboutPage() {
               Psychology Today
             </a>
             <a
+              href="https://www.zocdoc.com/professional/marissa-cooney-lpc-associate-671460"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-eden-forest/70 hover:text-eden-forest transition-colors font-heading text-base sm:text-lg"
+            >
+              Zocdoc <span className="text-sm text-eden-olive">(reviews)</span>
+            </a>
+            <a
               href="https://www.conciergecounselingservice.com/marissa"
               target="_blank"
               rel="noopener noreferrer"
