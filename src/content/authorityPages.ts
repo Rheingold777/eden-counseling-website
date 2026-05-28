@@ -329,7 +329,7 @@ export const areaPages: AuthorityPage[] = [
     slug: "southpark-meadows",
     title: "Counseling Near Southpark Meadows",
     shortTitle: "Southpark Meadows",
-    metaTitle: "Counseling Near Southpark Meadows | South Austin Online Therapy",
+    metaTitle: "Counseling Near Southpark Meadows | Austin TX",
     metaDescription:
       "Online counseling for clients near Southpark Meadows, Slaughter Lane, I-35, and South Austin.",
     primaryKeyword: "counseling Southpark Meadows",
@@ -541,7 +541,7 @@ export const areaPages: AuthorityPage[] = [
     slug: "pflugerville",
     title: "Christian Counseling for Pflugerville, TX",
     shortTitle: "Pflugerville",
-    metaTitle: "Christian Counseling for Pflugerville, TX | Telehealth Therapy",
+    metaTitle: "Christian Counseling for Pflugerville, TX",
     metaDescription:
       "Faith-informed telehealth counseling for Pflugerville, TX adults, teens, and couples. Anxiety, depression, marriage, faith, and life transition support.",
     primaryKeyword: "Christian counseling Pflugerville TX",
@@ -798,7 +798,7 @@ export const areaPages: AuthorityPage[] = [
     slug: "dripping-springs",
     title: "Christian Counseling for Dripping Springs, TX",
     shortTitle: "Dripping Springs",
-    metaTitle: "Christian Counseling for Dripping Springs, TX | Telehealth Therapy",
+    metaTitle: "Christian Counseling for Dripping Springs, TX",
     metaDescription:
       "Faith-based telehealth counseling for Dripping Springs, TX clients. Support for anxiety, faith, marriage, parenting, and life transitions.",
     primaryKeyword: "Christian counseling Dripping Springs TX",
@@ -1136,7 +1136,7 @@ export const therapyPages: AuthorityPage[] = [
     slug: "couples-communication",
     title: "Couples Communication Counseling",
     shortTitle: "Couples Communication",
-    metaTitle: "Couples Communication Counseling | Austin and Buda Telehealth",
+    metaTitle: "Couples Communication Counseling | Austin TX",
     metaDescription:
       "Online counseling for Texas couples who want healthier communication, less conflict, clearer repair, and stronger connection.",
     primaryKeyword: "couples communication counseling",
@@ -1390,7 +1390,7 @@ export const faqPages: AuthorityPage[] = [
     slug: "first-session",
     title: "What Happens in the First Counseling Session?",
     shortTitle: "First Session",
-    metaTitle: "What Happens in the First Counseling Session? | Eden Counseling FAQ",
+    metaTitle: "What Happens in the First Counseling Session?",
     metaDescription:
       "A simple guide to what new clients can expect in the first telehealth counseling session.",
     primaryKeyword: "what happens in first counseling session",
@@ -1726,7 +1726,7 @@ export const faqPages: AuthorityPage[] = [
     slug: "texas-telehealth-rules",
     title: "Who Can Use Telehealth Counseling in Texas?",
     shortTitle: "Texas Telehealth",
-    metaTitle: "Who Can Use Telehealth Counseling in Texas? | Eden Counseling FAQ",
+    metaTitle: "Who Can Use Telehealth Counseling in Texas?",
     metaDescription:
       "Learn the basic Texas location rule for telehealth counseling and what clients need for online sessions.",
     primaryKeyword: "who can use telehealth counseling Texas",

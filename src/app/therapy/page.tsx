@@ -3,7 +3,7 @@ import { AuthorityHub } from "@/components/AuthorityPage";
 import { therapyPages } from "@/content/authorityPages";
 
 export const metadata: Metadata = {
-  title: "Therapy Topics and Counseling Services",
+  title: "Therapy Topics and Services",
   description:
     "Faith-informed telehealth counseling for anxiety, depression, trauma, teens, marriage, grief, burnout, and life transitions across Texas.",
   alternates: {

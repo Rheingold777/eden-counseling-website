@@ -23,8 +23,8 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://edencounselingwellness.com"),
   title: {
-    default: "Eden Counseling and Wellness | Christian Counseling in Austin, TX",
-    template: "%s | Eden Counseling and Wellness",
+    default: "Eden Counseling | Christian Counseling in Austin, TX",
+    template: "%s | Eden Counseling",
   },
   description:
     "Faith-based counseling for adults, teens, and couples in Austin, TX. Telehealth therapy with Marissa Cooney, LPC-Associate. Heal, grow, begin again.",

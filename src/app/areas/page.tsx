@@ -3,7 +3,7 @@ import { AuthorityHub } from "@/components/AuthorityPage";
 import { areaPages } from "@/content/authorityPages";
 
 export const metadata: Metadata = {
-  title: "Counseling Areas Near Buda and South Austin",
+  title: "Counseling Areas Near Austin, TX",
   description:
     "Local telehealth counseling pages for Buda, Kyle, South Austin, Manchaca, Circle C, Slaughter Lane, Onion Creek, and nearby communities.",
   alternates: {
