@@ -27,7 +27,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["biblical counseling Austin", "David and Saul mental health"],
     image: "/images/blog/david-and-saul.jpg",
     imageAlt: "David and Saul biblical scene representing mental wellness and faith-based therapy",
-    date: "2026-06-03",
+    date: "2026-03-25",
     readTime: "7 min read",
   },
   {
@@ -43,7 +43,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["Christian therapy Texas", "does faith-based counseling work"],
     image: "/images/blog/faith-based-therapy.jpg",
     imageAlt: "Peaceful setting representing faith-based therapy and Christian counseling",
-    date: "2026-06-10",
+    date: "2026-04-01",
     readTime: "6 min read",
   },
   {
@@ -59,7 +59,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["mental health stigma in church", "Christian mental health"],
     image: "/images/blog/church-and-mental-health.jpg",
     imageAlt: "Church community supporting mental health and wellness",
-    date: "2026-06-17",
+    date: "2026-04-08",
     readTime: "8 min read",
   },
   {
@@ -75,7 +75,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["holistic wellness Christian", "exercise and mental health Bible"],
     image: "/images/blog/physical-wellbeing.jpg",
     imageAlt: "Physical wellness and mental health connection with nature setting",
-    date: "2026-06-24",
+    date: "2026-04-15",
     readTime: "6 min read",
   },
   {
@@ -91,7 +91,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["benefits of counseling", "what does therapy do", "counseling near me Texas"],
     image: "/images/blog/how-counseling-helps.jpg",
     imageAlt: "Comforting counseling scene representing how therapy helps",
-    date: "2026-07-01",
+    date: "2026-04-22",
     readTime: "7 min read",
   },
   {
@@ -107,7 +107,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["first counseling appointment", "first time therapy Texas"],
     image: "/images/blog/first-session.jpg",
     imageAlt: "Cozy home office setup for a telehealth therapy session",
-    date: "2026-07-08",
+    date: "2026-04-29",
     readTime: "6 min read",
   },
   {
@@ -123,7 +123,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["Christian anxiety help", "faith-based anxiety counseling Texas", "Bible verses for anxiety"],
     image: "/images/blog/anxiety-and-faith.jpg",
     imageAlt: "Serene mountain lake at dawn representing finding peace through faith during anxiety",
-    date: "2026-07-15",
+    date: "2026-05-06",
     readTime: "7 min read",
   },
   {
@@ -139,7 +139,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["online counseling Texas", "virtual therapy Austin", "telehealth counseling benefits"],
     image: "/images/blog/telehealth-therapy.jpg",
     imageAlt: "Cozy home therapy nook for telehealth counseling session in Texas",
-    date: "2026-07-22",
+    date: "2026-05-13",
     readTime: "6 min read",
   },
   {
@@ -155,7 +155,7 @@ export const posts: BlogPost[] = [
     secondaryKeywords: ["do I need therapy", "should I go to counseling", "when to see a therapist"],
     image: "/images/blog/signs-counseling.jpg",
     imageAlt: "Garden path with bench and wildflowers representing reflection on counseling",
-    date: "2026-07-29",
+    date: "2026-05-20",
     readTime: "6 min read",
   },
 ];
