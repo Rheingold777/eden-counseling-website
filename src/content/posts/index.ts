@@ -158,6 +158,22 @@ export const posts: BlogPost[] = [
     date: "2026-05-20",
     readTime: "6 min read",
   },
+  {
+    slug: "bible-verses-for-anxiety",
+    title: "Bible Verses for Anxiety: Scripture for an Anxious Heart",
+    metaTitle: "Bible Verses for Anxiety: Scripture for Worry & Fear",
+    metaDescription:
+      "Comforting Bible verses for anxiety, fear, and sleepless nights — with reflections from a faith-based counselor in Texas on how Scripture and care work together.",
+    excerpt:
+      "The Bible speaks directly to fear and worry. Here are comforting verses for anxious moments — plus how Scripture and counseling can work together.",
+    category: "Faith & Wellness",
+    targetKeyword: "bible verses for anxiety",
+    secondaryKeywords: ["scripture for anxiety", "prayer for anxiety", "Christian help for anxiety"],
+    image: "/images/blog/anxiety-and-faith.jpg",
+    imageAlt: "Open Bible with soft light representing comfort and Scripture for anxiety",
+    date: "2026-06-05",
+    readTime: "7 min read",
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

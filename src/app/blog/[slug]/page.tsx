@@ -11,6 +11,7 @@ import FirstSessionContent from "@/content/posts/first-session";
 import AnxietyAndFaithContent from "@/content/posts/anxiety-and-faith";
 import TelehealthTexasContent from "@/content/posts/telehealth-texas";
 import SignsCounselingContent from "@/content/posts/signs-counseling";
+import BibleVersesForAnxietyContent from "@/content/posts/bible-verses-for-anxiety";
 
 const contentMap: Record<string, React.ComponentType> = {
   "david-and-saul-mental-wellness": DavidAndSaulContent,
@@ -22,6 +23,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "anxiety-and-faith": AnxietyAndFaithContent,
   "telehealth-therapy-texas": TelehealthTexasContent,
   "signs-you-could-benefit-from-counseling": SignsCounselingContent,
+  "bible-verses-for-anxiety": BibleVersesForAnxietyContent,
 };
 
 export function generateStaticParams() {
