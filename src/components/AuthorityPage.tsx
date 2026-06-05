@@ -46,33 +46,27 @@ export function AuthorityPageTemplate({ page }: { page: AuthorityPage }) {
         </div>
       </section>
 
-      <section className="py-12 md:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <div className="grid gap-4 md:grid-cols-3">
-            <div className="bg-white rounded-xl border border-eden-sage/60 p-5 shadow-sm">
-              <h2 className="font-heading text-xl font-semibold text-eden-forest mb-2">
-                Primary Search
-              </h2>
-              <p className="text-sm text-eden-forest/70">{page.primaryKeyword}</p>
-            </div>
-            <div className="bg-white rounded-xl border border-eden-sage/60 p-5 shadow-sm">
-              <h2 className="font-heading text-xl font-semibold text-eden-forest mb-2">
-                Who This Helps
-              </h2>
-              <p className="text-sm text-eden-forest/70">{page.audience}</p>
-            </div>
-            <div className="bg-white rounded-xl border border-eden-sage/60 p-5 shadow-sm">
-              <h2 className="font-heading text-xl font-semibold text-eden-forest mb-2">
-                Search Intent
-              </h2>
-              <p className="text-sm text-eden-forest/70">{page.intent}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="pb-8 md:pb-12">
+      {/*
+        NOTE (SEO fix 2026-06-01): The previous version rendered internal SEO
+        scaffolding as visible page content — "Primary Search", "Search Intent",
+        "Related Searches" boxes and "Local Signals Mentioned" chips. Google was
+        indexing that metadata text and matching the pages to off-target queries
+        ("faith-based practitioner recognition", etc.), and it reads as
+        machine-generated content (a YMYL helpful-content risk). Those blocks are
+        removed. The keyword/audience/intent/localSignals fields remain in the
+        AuthorityPage data model (used for <title>/meta + internal planning) but
+        are no longer printed to the page. "Who This Helps" is folded into the
+        intro copy below as natural, client-facing language.
+      */}
+      <section className="pb-8 md:pb-12 pt-12 md:pt-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          {page.audience && (
+            <p className="text-lg leading-relaxed text-eden-forest/80 mb-8">
+              <span className="font-semibold text-eden-forest">Who this is for: </span>
+              {page.audience}
+            </p>
+          )}
+
           <div className="prose-eden">
             {page.sections.map((section) => (
               <section key={section.heading}>
@@ -80,38 +74,6 @@ export function AuthorityPageTemplate({ page }: { page: AuthorityPage }) {
                 <p>{section.body}</p>
               </section>
             ))}
-          </div>
-
-          {page.localSignals && page.localSignals.length > 0 && (
-            <div className="mt-10 rounded-xl bg-white border border-eden-sage/60 p-6 shadow-sm">
-              <h2 className="font-heading text-2xl font-semibold text-eden-forest mb-3">
-                Local Signals Mentioned
-              </h2>
-              <div className="flex flex-wrap gap-2">
-                {page.localSignals.map((signal) => (
-                  <span
-                    key={signal}
-                    className="rounded-full bg-eden-sage/70 px-3 py-1 text-sm text-eden-forest/80"
-                  >
-                    {signal}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-
-          <div className="mt-10 rounded-xl bg-eden-mint border border-eden-sage/70 p-6">
-            <h2 className="font-heading text-2xl font-semibold text-eden-forest mb-3">
-              Related Searches
-            </h2>
-            <ul className="grid gap-2 sm:grid-cols-2 text-sm text-eden-forest/70">
-              {page.secondaryKeywords.map((keyword) => (
-                <li key={keyword} className="flex gap-2">
-                  <span className="text-eden-olive">+</span>
-                  <span>{keyword}</span>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       </section>
