@@ -1340,6 +1340,198 @@ export const therapyPages: AuthorityPage[] = [
       },
     ],
   },
+  {
+    kind: "therapy",
+    slug: "online-christian-counseling-texas",
+    title: "Online Christian Counseling in Texas",
+    shortTitle: "Online Christian Counseling",
+    metaTitle: "Online Christian Counseling in Texas | Eden Counseling",
+    metaDescription:
+      "Online Christian counseling for anyone in Texas. Faith-integrated, evidence-based therapy by video for anxiety, depression, grief, and relationships. Book a free consult.",
+    primaryKeyword: "online Christian counseling Texas",
+    secondaryKeywords: [
+      "online Christian counseling",
+      "Christian telehealth counseling",
+      "faith-based online therapy Texas",
+      "Christian therapist online",
+    ],
+    intent: "Decision-stage search for a Christian counselor who works online across Texas.",
+    audience:
+      "Texans who want a faith-integrated counselor they can see by video, from anywhere in the state.",
+    sections: [
+      {
+        heading: "Christian counseling you can attend from anywhere in Texas",
+        body:
+          "Online Christian counseling makes it possible to work with a faith-aware counselor without a drive, a waiting room, or rearranging your whole day. Eden meets clients by secure video anywhere they are physically located in Texas, so faith-integrated care is within reach whether you are in Austin, San Antonio, Houston, Dallas, or a small town in between.",
+      },
+      {
+        heading: "Faith and clinical skill in the same session",
+        body:
+          "Sessions combine evidence-based methods (CBT, ACT, and trauma-informed care) with space for Scripture, prayer, and spiritual questions when you want them. Faith integration is always client-led. You decide how central it is, and you are welcome here whatever your background.",
+      },
+      {
+        heading: "What clients bring to online counseling",
+        body:
+          "People reach out for anxiety, depression, grief, burnout, relationship strain, and seasons of doubt or transition. Online sessions are well-suited to all of these. Active crises need immediate crisis support rather than routine telehealth, and the page footer lists where to turn right away.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is online Christian counseling as effective as in person?",
+        answer:
+          "Research shows telehealth counseling is effective for most common concerns like anxiety, depression, and stress. Many clients also find it easier to be consistent when sessions fit into a normal day.",
+      },
+      {
+        question: "Do I have to be religious to come?",
+        answer:
+          "No. Faith integration is optional and client-directed. Clients of any background are welcome, and you can request a clinical approach without explicit faith content.",
+      },
+    ],
+  },
+  {
+    kind: "therapy",
+    slug: "affordable-christian-counseling-austin",
+    title: "Affordable Christian Counseling in Austin",
+    shortTitle: "Affordable Christian Counseling",
+    metaTitle: "Affordable Christian Counseling Austin | Sliding Scale",
+    metaDescription:
+      "Affordable Christian counseling in Austin, TX. Faith-based telehealth therapy with sliding-scale rates from $60 to $100, no insurance required. Book a free consult.",
+    primaryKeyword: "affordable Christian counseling Austin",
+    secondaryKeywords: [
+      "sliding scale therapist Austin",
+      "affordable therapy Austin",
+      "low cost Christian counseling",
+      "self pay therapist Austin",
+    ],
+    intent:
+      "Cost-aware decision-stage search for budget-friendly faith-based therapy in Austin.",
+    audience:
+      "Austin-area clients who want quality Christian counseling but are priced out of typical private practice.",
+    sections: [
+      {
+        heading: "Faith-based counseling that fits a real budget",
+        body:
+          "Good counseling should not be out of reach because of price. Eden keeps rates accessible on purpose: individual sessions start at $75, adolescent sessions at $60, and couples sessions at $100, with sliding-scale options when finances are tight. There is no insurance requirement, so there are no surprise denials or hidden network rules.",
+      },
+      {
+        heading: "How the sliding scale works",
+        body:
+          "If standard rates are a stretch, ask about the sliding scale during your free consultation. The goal is to find a sustainable fee so you can stay in counseling long enough for it to actually help. Eden can also provide a superbill if you want to seek out-of-network reimbursement from your insurance.",
+      },
+      {
+        heading: "Affordable does not mean lesser care",
+        body:
+          "Sessions are provided by Marissa Cooney, LPC-Associate, supervised by Dr. Jennifer McCurrach, LPC-S, using evidence-based methods with optional faith integration. You get thoughtful, professional counseling at a price built for normal people.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What are your rates?",
+        answer:
+          "Individual sessions start at $75, adolescent sessions at $60, and couples sessions at $100. Sliding-scale options are available on request. Eden is self-pay and does not bill insurance, but can provide a superbill.",
+      },
+      {
+        question: "Do you take insurance?",
+        answer:
+          "Eden operates on a self-pay basis, which keeps rates predictable and lower. A superbill can be provided so you can pursue out-of-network reimbursement if your plan allows it.",
+      },
+    ],
+  },
+  {
+    kind: "therapy",
+    slug: "christian-counseling-for-depression",
+    title: "Christian Counseling for Depression",
+    shortTitle: "Depression Counseling",
+    metaTitle: "Christian Counseling for Depression | Texas Telehealth",
+    metaDescription:
+      "Christian counseling for depression by telehealth in Texas. Faith-integrated, evidence-based support for low mood, hopelessness, and heaviness. Book a free consult.",
+    primaryKeyword: "Christian counseling for depression",
+    secondaryKeywords: [
+      "Christian depression therapist",
+      "faith-based depression counseling",
+      "depression counseling Texas",
+    ],
+    intent: "Decision-stage search for faith-integrated help with depression.",
+    audience:
+      "Texans carrying low mood, hopelessness, or numbness who want care that respects their faith.",
+    sections: [
+      {
+        heading: "When the heaviness will not lift",
+        body:
+          "Depression can look like exhaustion that sleep does not fix, a loss of interest in things you used to love, or a quiet hopelessness you hide from everyone. It is not a lack of faith or a character flaw. Eden offers counseling for clients in Texas who are tired of white-knuckling it and want real support.",
+      },
+      {
+        heading: "Faith and clinical care, together",
+        body:
+          "Counseling uses evidence-based methods such as CBT and behavioral activation to interrupt the depression cycle, alongside space for Scripture, prayer, and honest questions about where God is in the dark seasons. Faith integration is always your choice and is welcome to whatever degree helps you.",
+      },
+      {
+        heading: "A note on safety",
+        body:
+          "If you are thinking about harming yourself, please reach out for immediate help. Call or text 988, the Suicide and Crisis Lifeline, any time. Routine counseling works alongside, not instead of, crisis care when it is needed.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can counseling really help depression?",
+        answer:
+          "Yes. Evidence-based therapy is one of the most effective treatments for depression, especially for mild to moderate symptoms. For some people, counseling alongside medical care works best, and that can be discussed.",
+      },
+      {
+        question: "Is medication required?",
+        answer:
+          "No. Eden does not prescribe medication. Counseling can help on its own, and if medication might be useful, Eden can talk through a referral to a prescriber.",
+      },
+    ],
+  },
+  {
+    kind: "therapy",
+    slug: "christian-marriage-counseling-texas",
+    title: "Christian Marriage Counseling in Texas",
+    shortTitle: "Christian Marriage Counseling",
+    metaTitle: "Christian Marriage Counseling Texas | Online Couples",
+    metaDescription:
+      "Faith-based marriage and couples counseling by telehealth in Texas. Rebuild communication, trust, and connection with optional Scripture-informed care. Book a consult.",
+    primaryKeyword: "Christian marriage counseling Texas",
+    secondaryKeywords: [
+      "Christian couples counseling",
+      "faith-based marriage counseling",
+      "online couples therapy Texas",
+      "Christian premarital counseling",
+    ],
+    intent: "Decision-stage search for faith-based help with a marriage or relationship.",
+    audience:
+      "Couples in Texas who want their faith honored while they work on communication, trust, or connection.",
+    sections: [
+      {
+        heading: "For couples who want to do the work together",
+        body:
+          "Whether you are navigating constant conflict, rebuilding after a breach of trust, or simply feeling distant, counseling gives you a structured, neutral space to actually talk. Eden offers online couples and marriage counseling for partners physically located in Texas, so you can meet together even with busy or opposite schedules.",
+      },
+      {
+        heading: "Faith woven in, when you want it",
+        body:
+          "For couples who share a Christian faith, sessions can make room for prayer, Scripture, and a shared sense of covenant alongside practical communication and conflict-resolution skills. Faith integration is led by you both, and couples of any background are welcome.",
+      },
+      {
+        heading: "Premarital and rebuilding work",
+        body:
+          "Eden also supports premarital counseling for couples preparing for marriage and restorative work for couples recovering from a hard season. Sessions focus on real skills: listening, repair, boundaries, and rebuilding the friendship underneath the relationship.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do both partners need to attend?",
+        answer:
+          "For couples work, yes, both partners join the session. If one partner wants individual counseling first, that can be a helpful starting point too.",
+      },
+      {
+        question: "What if we are not sure we want to stay together?",
+        answer:
+          "That is common and welcome. Counseling can create space to explore honestly, improve communication, and make clearer decisions, without pressure toward a predetermined outcome.",
+      },
+    ],
+  },
 ];
 
 export const faqPages: AuthorityPage[] = [

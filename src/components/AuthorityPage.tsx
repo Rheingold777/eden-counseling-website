@@ -40,8 +40,27 @@ export function AuthorityPageTemplate({ page }: { page: AuthorityPage }) {
           <h1 className="font-heading text-4xl md:text-5xl font-semibold text-eden-forest mb-5">
             {page.title}
           </h1>
-          <p className="text-lg leading-relaxed text-eden-forest/70 max-w-3xl">
+          <p className="text-lg leading-relaxed text-eden-forest/70 max-w-3xl mb-7">
             {page.metaDescription}
+          </p>
+          {/* Top CTA (Sturm BOFU template): call + book above the fold so high-intent
+              visitors can act immediately. Phone is the primary conversion path. */}
+          <div className="flex flex-col sm:flex-row gap-3">
+            <a
+              href="tel:+15126018932"
+              className="inline-flex items-center justify-center px-6 py-3 bg-eden-forest text-white font-medium rounded-lg hover:bg-eden-forest/90 transition-colors"
+            >
+              Call (512) 601-8932
+            </a>
+            <Link
+              href="/book"
+              className="inline-flex items-center justify-center px-6 py-3 border border-eden-forest/30 text-eden-forest font-medium rounded-lg hover:bg-white/60 transition-colors"
+            >
+              Book a Free 15-Min Consult
+            </Link>
+          </div>
+          <p className="text-sm text-eden-forest/60 mt-3">
+            Telehealth across Texas. Calls returned within 24 hours.
           </p>
         </div>
       </section>
