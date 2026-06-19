@@ -3,7 +3,7 @@ import Link from "next/link";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
-  title: "Resources",
+  title: "Mental Health Resources & Crisis Help | Eden Counseling",
   description:
     "Mental health resources, crisis hotlines, recommended reading, and free wellness tools from Eden Counseling and Wellness in Austin, TX.",
   openGraph: {

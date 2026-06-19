@@ -4,9 +4,9 @@ import Link from "next/link";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
-  title: "About Marissa Cooney",
+  title: "About Marissa Cooney, LPC-Associate | Austin Christian Counselor",
   description:
-    "Meet Marissa Cooney, LPC-Associate at Eden Counseling and Wellness. Learn about her background, mission, and approach to faith-based counseling in Austin, TX.",
+    "Meet Marissa Cooney, LPC-Associate. Affordable, faith-based telehealth counseling in Austin and across Texas, with sliding-scale rates.",
   openGraph: {
     title: "About Marissa Cooney | Eden Counseling and Wellness",
     description:
@@ -46,7 +46,7 @@ export default function AboutPage() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-xl max-w-sm mx-auto md:mx-0">
               <Image
                 src="/images/marissa-headshot.jpg"
-                alt="Marissa Cooney, LPC-Associate"
+                alt="Marissa Cooney, LPC-Associate providing Christian telehealth counseling in Austin, Texas"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 400px"
@@ -63,6 +63,21 @@ export default function AboutPage() {
           <h2 className="font-heading text-3xl font-semibold text-eden-forest mb-6">
             Meet Marissa
           </h2>
+          {/* BOFU-optimized intro: blends high-intent search terms (Christian anxiety
+              therapist in Austin, affordable couples therapist online, sliding-scale
+              therapy) into natural welcoming copy. Sturm method, no keyword stuffing. */}
+          <p className="text-lg text-eden-forest/80 leading-relaxed mb-6">
+            Welcome. I&rsquo;m Marissa Cooney, an Austin, Texas original and a
+            licensed LPC-Associate providing affordable telehealth counseling
+            across Texas. Finding the right support shouldn&rsquo;t feel out of
+            reach. Whether you are searching for a Christian anxiety therapist in
+            Austin, navigating a difficult life transition, or looking for an
+            affordable couples therapist online, I offer a safe, collaborative
+            space tailored to your journey. By blending professional clinical
+            mental health strategies with optional faith-based principles, my goal
+            is to help you heal and begin again, with flexible sliding-scale
+            options designed to fit your budget.
+          </p>
           <div className="prose prose-lg text-eden-forest/70 space-y-4">
             <p>
               My name is Marissa Cooney and I am an Austin, Texas original! I

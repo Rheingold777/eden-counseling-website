@@ -5,7 +5,7 @@ import { CalEmbed } from "./CalEmbed";
 export const metadata: Metadata = {
   title: "Request a Free 15-Minute Consultation",
   description:
-    "Request a free 15-minute consultation with Marissa Cooney, LPC-Associate. Faith-based telehealth counseling across Texas. Marissa reviews and confirms every request within 24 hours.",
+    "Request a free 15-minute consultation with Marissa Cooney, LPC-Associate. Faith-based telehealth counseling across Texas, confirmed within 24 hours.",
   alternates: {
     canonical: "/book",
   },
