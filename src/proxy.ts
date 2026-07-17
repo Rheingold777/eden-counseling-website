@@ -3,7 +3,7 @@ import type { NextRequest } from "next/server";
 
 const PRODUCTION_HOST = "edencounselingwellness.com";
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const host = request.headers.get("host") ?? "";
   const url = request.nextUrl.clone();
 
@@ -12,8 +12,16 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // If already on production host, pass through
-  if (host === PRODUCTION_HOST || host === `www.${PRODUCTION_HOST}`) {
+  // Keep one public hostname so www URLs do not compete with canonical URLs.
+  if (host === `www.${PRODUCTION_HOST}`) {
+    url.host = PRODUCTION_HOST;
+    url.protocol = "https:";
+    url.port = "";
+    return NextResponse.redirect(url, 308);
+  }
+
+  // If already on the production host, pass through.
+  if (host === PRODUCTION_HOST) {
     return NextResponse.next();
   }
 
