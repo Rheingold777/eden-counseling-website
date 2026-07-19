@@ -4,7 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { MobileCallBar } from "@/components/MobileCallBar";
-import { LocalBusinessSchema, PersonSchema } from "@/components/SchemaMarkup";
+import { OrganizationSchema, PersonSchema } from "@/components/SchemaMarkup";
 import { Analytics } from "@/components/Analytics";
 
 const cormorant = Cormorant_Garamond({
@@ -95,7 +95,7 @@ export default function RootLayout({
       className={`${cormorant.variable} ${dmSans.variable} h-full antialiased`}
     >
       <head>
-        <LocalBusinessSchema />
+        <OrganizationSchema />
         <PersonSchema />
       </head>
       <body className="min-h-full flex flex-col">

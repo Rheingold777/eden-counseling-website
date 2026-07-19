@@ -163,7 +163,7 @@ export const posts: BlogPost[] = [
     title: "Bible Verses for Anxiety: Scripture for an Anxious Heart",
     metaTitle: "Bible Verses for Anxiety: Scripture for Worry & Fear",
     metaDescription:
-      "Comforting Bible verses for anxiety, fear, and sleepless nights — with reflections from a faith-based counselor in Texas on how Scripture and care work together.",
+      "Bible verses for anxiety, fear, and sleepless nights, with reflections from a faith-based Texas counselor on how Scripture and clinical care work together.",
     excerpt:
       "The Bible speaks directly to fear and worry. Here are comforting verses for anxious moments — plus how Scripture and counseling can work together.",
     category: "Faith & Wellness",

@@ -1347,7 +1347,7 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Online Christian Counseling",
     metaTitle: "Online Christian Counseling in Texas | Eden Counseling",
     metaDescription:
-      "Online Christian counseling for anyone in Texas. Faith-integrated, evidence-based therapy by video for anxiety, depression, grief, and relationships. Book a free consult.",
+      "Online Christian counseling across Texas for anxiety, depression, grief, and relationships. Faith-integrated telehealth with a free consultation.",
     primaryKeyword: "online Christian counseling Texas",
     secondaryKeywords: [
       "online Christian counseling",
@@ -1395,7 +1395,7 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Affordable Christian Counseling",
     metaTitle: "Affordable Christian Counseling Austin | Sliding Scale",
     metaDescription:
-      "Affordable Christian counseling in Austin, TX. Faith-based telehealth therapy with sliding-scale rates from $60 to $100, no insurance required. Book a free consult.",
+      "Affordable Christian counseling in Austin by telehealth. Sliding-scale rates from $60 to $100 with no insurance required. Book a free consultation.",
     primaryKeyword: "affordable Christian counseling Austin",
     secondaryKeywords: [
       "sliding scale therapist Austin",
@@ -1444,7 +1444,7 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Depression Counseling",
     metaTitle: "Christian Counseling for Depression | Texas Telehealth",
     metaDescription:
-      "Christian counseling for depression by telehealth in Texas. Faith-integrated, evidence-based support for low mood, hopelessness, and heaviness. Book a free consult.",
+      "Christian counseling for depression by telehealth in Texas. Faith-integrated support for low mood, hopelessness, and heaviness. Book a free consultation.",
     primaryKeyword: "Christian counseling for depression",
     secondaryKeywords: [
       "Christian depression therapist",
@@ -1491,7 +1491,7 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Christian Marriage Counseling",
     metaTitle: "Christian Marriage Counseling Texas | Online Couples",
     metaDescription:
-      "Faith-based marriage and couples counseling by telehealth in Texas. Rebuild communication, trust, and connection with optional Scripture-informed care. Book a consult.",
+      "Faith-based marriage and couples counseling by telehealth in Texas. Rebuild communication, trust, and connection with optional Scripture-informed care.",
     primaryKeyword: "Christian marriage counseling Texas",
     secondaryKeywords: [
       "Christian couples counseling",

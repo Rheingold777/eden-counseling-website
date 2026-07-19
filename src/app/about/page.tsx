@@ -4,7 +4,7 @@ import Link from "next/link";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
-  title: "About Marissa Cooney, LPC-Associate | Austin Christian Counselor",
+  title: "About Marissa Cooney, LPC-Associate",
   description:
     "Meet Marissa Cooney, LPC-Associate. Affordable, faith-based telehealth counseling in Austin and across Texas, with sliding-scale rates.",
   openGraph: {

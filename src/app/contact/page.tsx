@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact a Christian Counselor in Austin | Eden Counseling",
+  title: "Contact a Christian Counselor in Austin",
   description:
     "Get in touch with Eden Counseling. Schedule a session, ask a question, or learn about faith-based telehealth counseling in Austin, TX.",
   openGraph: {
