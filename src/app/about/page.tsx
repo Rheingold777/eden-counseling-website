@@ -286,7 +286,7 @@ export default function AboutPage() {
             />
             <FAQ
               q="How do I schedule an appointment?"
-              a="The fastest way is to call (512) 601-8932 — leave a message and I return calls within 24 hours, including a free 15-minute consultation. You can also request a time at edencounselingwellness.com/book."
+              a="The fastest way is to call (512) 881-6560 — leave a message and I return calls within 24 hours, including a free 15-minute consultation. You can also request a time at edencounselingwellness.com/book."
             />
             <FAQ
               q="What issues do you help with?"

@@ -136,10 +136,10 @@ export function BlogLayout({ post, children }: BlogLayoutProps) {
               Book on Psychology Today
             </a>
             <a
-              href="tel:5126018932"
+              href="tel:5128816560"
               className="inline-flex items-center justify-center px-6 py-3 bg-white/10 text-white font-medium rounded-lg hover:bg-white/20 transition-colors border border-white/20"
             >
-              Call (512) 601-8932
+              Call (512) 881-6560
             </a>
           </div>
         </div>

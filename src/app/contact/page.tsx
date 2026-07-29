@@ -56,8 +56,8 @@ export default function ContactPage() {
                     </svg>
                   }
                   label="Phone"
-                  value="(512) 601-8932"
-                  href="tel:5126018932"
+                  value="(512) 881-6560"
+                  href="tel:5128816560"
                 />
                 <ContactItem
                   icon={

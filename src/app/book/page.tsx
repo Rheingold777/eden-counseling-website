@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   },
 };
 
-const PHONE_DISPLAY = "(512) 601-8932";
-const PHONE_TEL = "+15126018932";
+const PHONE_DISPLAY = "(512) 881-6560";
+const PHONE_TEL = "+15128816560";
 
 export default function BookPage() {
   return (

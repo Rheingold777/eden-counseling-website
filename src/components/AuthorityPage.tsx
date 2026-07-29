@@ -47,10 +47,10 @@ export function AuthorityPageTemplate({ page }: { page: AuthorityPage }) {
               visitors can act immediately. Phone is the primary conversion path. */}
           <div className="flex flex-col sm:flex-row gap-3">
             <a
-              href="tel:+15126018932"
+              href="tel:+15128816560"
               className="inline-flex items-center justify-center px-6 py-3 bg-eden-forest text-white font-medium rounded-lg hover:bg-eden-forest/90 transition-colors"
             >
-              Call (512) 601-8932
+              Call (512) 881-6560
             </a>
             <Link
               href="/book"

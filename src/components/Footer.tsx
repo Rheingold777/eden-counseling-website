@@ -42,8 +42,8 @@ export function Footer() {
             <h4 className="font-heading text-lg font-semibold text-white mb-3">Get in Touch</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="tel:5126018932" className="hover:text-white transition-colors">
-                  (512) 601-8932
+                <a href="tel:5128816560" className="hover:text-white transition-colors">
+                  (512) 881-6560
                 </a>
               </li>
               <li>

@@ -24,10 +24,10 @@ export default function Error({
             Try Again
           </button>
           <a
-            href="tel:5126018932"
+            href="tel:5128816560"
             className="px-6 py-3 bg-eden-sage/40 text-eden-forest font-medium rounded-lg hover:bg-eden-sage/60 transition-colors"
           >
-            Call (512) 601-8932
+            Call (512) 881-6560
           </a>
         </div>
       </div>

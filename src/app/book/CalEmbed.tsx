@@ -14,8 +14,8 @@ import Script from "next/script";
  * that still drives the visitor to phone or contact form.
  */
 
-const FALLBACK_PHONE_DISPLAY = "(512) 601-8932";
-const FALLBACK_PHONE_TEL = "+15126018932";
+const FALLBACK_PHONE_DISPLAY = "(512) 881-6560";
+const FALLBACK_PHONE_TEL = "+15128816560";
 
 // Lightweight type for the Cal.com global. The Cal.com embed script
 // (loaded via next/script below) installs window.Cal at runtime.

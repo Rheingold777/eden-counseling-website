@@ -71,7 +71,7 @@ export function LocalBusinessSchema() {
     description:
       "Faith-based counseling for individuals, adolescents, and couples in Austin, Texas. Telehealth sessions available throughout Texas.",
     url: BASE_URL,
-    telephone: "+1-512-601-8932",
+    telephone: "+1-512-881-6560",
     email: "info@edencounselingwellness.com",
     image: `${BASE_URL}/images/eden-logo.jpeg`,
     priceRange: "$60-$100",
@@ -176,7 +176,7 @@ export function PersonSchema() {
       "Licensed Professional Counselor Associate providing faith-based counseling in Austin, TX.",
     url: `${BASE_URL}/about`,
     image: `${BASE_URL}/images/marissa-headshot.jpg`,
-    telephone: "+1-512-601-8932",
+    telephone: "+1-512-881-6560",
     email: "info@edencounselingwellness.com",
     worksFor: {
       "@type": "MedicalBusiness",

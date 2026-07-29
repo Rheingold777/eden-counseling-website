@@ -223,7 +223,7 @@ export default function SignsCounselingPost() {
           Schedule a free consultation through Psychology Today
         </a>{" "}
         or call{" "}
-        <a href="tel:+15126018932">(512) 601-8932</a>.
+        <a href="tel:+15128816560">(512) 881-6560</a>.
       </p>
 
       <p>
