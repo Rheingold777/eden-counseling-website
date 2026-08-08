@@ -157,7 +157,7 @@ export default function TelehealthTexasPost() {
       </ul>
 
       <p>
-        At Eden Counseling, I work with individuals ages 13 and up,
+        At Eden Counseling, I work with individuals ages 10 and up,
         couples, and adolescents&mdash;all through telehealth.
       </p>
 
@@ -270,9 +270,9 @@ export default function TelehealthTexasPost() {
 
       <p>
         <Link href="/about">Eden Counseling and Wellness</Link> offers{" "}
-        <Link href="/services">telehealth therapy</Link> to clients anywhere
+        <Link href="/therapy/telehealth-counseling-texas">telehealth counseling across Texas</Link> to clients anywhere
         in Texas. Whether you&rsquo;re looking for{" "}
-        <Link href="/blog/is-faith-based-therapy-right-for-you">
+        <Link href="/therapy/faith-based-therapy">
           faith-based counseling
         </Link>{" "}
         or simply a safe, professional space to talk, I&rsquo;m here.
@@ -284,9 +284,9 @@ export default function TelehealthTexasPost() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Schedule a free consultation through Psychology Today
+          Review availability through Psychology Today
         </a>{" "}
-        or call{" "}
+        , <Link href="/book">request a consultation</Link>, or call{" "}
         <a href="tel:+15128816560">(512) 881-6560</a>.
       </p>
 

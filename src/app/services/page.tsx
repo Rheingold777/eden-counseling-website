@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Counseling Services",
   description:
-    "Faith-based individual counseling, marriage counseling, and adolescent counseling offered through telehealth across Texas by Marissa Cooney, LPC-Associate.",
+    "Faith-based individual, marriage, and youth counseling for ages 10+ through telehealth across Texas and Saturday appointments in Buda.",
   openGraph: {
     title: "Counseling Services | Eden Counseling and Wellness",
     description:
-      "Individual, marriage, and adolescent counseling rooted in faith. Evidence-based telehealth therapy available throughout Texas.",
+      "Individual, marriage, and youth counseling rooted in faith, available online across Texas and in Buda on Saturdays.",
     url: "https://edencounselingwellness.com/services",
     images: [
       {
@@ -55,7 +55,7 @@ export default function ServicesPage() {
           <div className="text-eden-forest/70 space-y-4 leading-relaxed">
             <p>
               Individual counseling provides a safe, confidential space for adults
-              and adolescents (ages 13 and up) to explore their thoughts, feelings,
+              and young people (ages 10 and up) to explore their thoughts, feelings,
               and experiences with a compassionate professional.
             </p>
             <p>
@@ -168,7 +168,7 @@ export default function ServicesPage() {
           <div className="text-eden-forest/70 space-y-4 leading-relaxed">
             <p>
               Adolescence is a season of enormous change. Counseling can provide
-              teenagers (ages 13 and up) with a safe space to explore their
+              young people (ages 10 and up) with a safe space to explore their
               emotions, build coping skills, and develop a stronger sense of who
               they are.
             </p>

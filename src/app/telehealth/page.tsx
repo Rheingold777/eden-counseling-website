@@ -3,9 +3,9 @@ import Link from "next/link";
 import { FAQSchema } from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Telehealth Counseling",
+  title: "Online Therapy in Texas | Telehealth Counseling",
   description:
-    "Online counseling throughout Texas. Learn what telehealth is, how it works, and what to expect from your virtual session with Eden Counseling.",
+    "Online therapy and telehealth counseling for adults, teens, and couples located in Texas. Learn how virtual sessions work and ask about fit.",
   openGraph: {
     title: "Telehealth Counseling | Eden Counseling and Wellness",
     description:
@@ -34,7 +34,7 @@ const telehealthFAQs = [
   {
     question: "Is telehealth counseling as effective as in-person therapy?",
     answer:
-      "Yes. Research shows telehealth counseling is just as effective as in-person sessions. You receive the same evidence-based therapeutic approaches, confidentiality protections, and personal attention.",
+      "Telehealth can be an effective option for many common counseling concerns, although fit depends on the person, concern, privacy, technology, and safety needs. Eden can help you discuss whether virtual care is appropriate for your situation.",
   },
   {
     question: "Who can use telehealth counseling in Texas?",
@@ -83,10 +83,10 @@ export default function TelehealthPage() {
               device with a camera and microphone.
             </p>
             <p>
-              Telehealth offers the same quality of care as in-person sessions. You
-              receive the same evidence-based therapeutic approaches, the same
-              confidentiality protections, and the same personal attention — just
-              through a screen instead of across a room.
+              Online therapy can be a strong fit for many common counseling concerns.
+              The right format depends on your goals, privacy, technology, safety needs,
+              and personal preferences, so Eden will help you talk through fit rather
+              than assume one format is right for everyone.
             </p>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function TelehealthPage() {
               },
               {
                 title: "Same Quality",
-                desc: "Research shows telehealth counseling is just as effective as in-person sessions.",
+                desc: "Telehealth can support effective counseling while using the same thoughtful, individualized care plan.",
               },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-xl p-6 shadow-sm">
@@ -196,6 +196,17 @@ export default function TelehealthPage() {
               if you are experiencing a mental health crisis or emergency, please
               call 988 (Suicide &amp; Crisis Lifeline), text HOME to 741741, or
               call 911.
+            </p>
+            <p>
+              Explore Eden&apos;s{" "}
+              <Link href="/therapy/telehealth-counseling-texas" className="underline hover:text-eden-forest">
+                Texas telehealth counseling guide
+              </Link>{" "}
+              and{" "}
+              <Link href="/therapy/faith-based-therapy" className="underline hover:text-eden-forest">
+                faith-based therapy approach
+              </Link>{" "}
+              for more detail about services and fit.
             </p>
           </div>
         </div>

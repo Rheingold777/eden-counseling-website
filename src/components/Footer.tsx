@@ -51,7 +51,7 @@ export function Footer() {
                   info@edencounselingandwellness.com
                 </a>
               </li>
-              <li className="pt-1">Austin, Texas &middot; Telehealth Only</li>
+              <li className="pt-1">Telehealth across Texas &middot; Saturdays in Buda</li>
             </ul>
             {/* Social links hidden until accounts are created */}
           </div>

@@ -77,7 +77,7 @@ export default function ContactPage() {
                     </svg>
                   }
                   label="Location"
-                  value="Austin, Texas — Telehealth Only"
+                  value="Telehealth across Texas — Saturdays in Buda"
                 />
                 <ContactItem
                   icon={

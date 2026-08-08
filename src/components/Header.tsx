@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/telehealth", label: "Telehealth" },
   { href: "/blog", label: "Blog" },
   { href: "/resources", label: "Resources" },
+  { href: "/faqs", label: "FAQs" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -89,6 +90,8 @@ export function Header() {
               onClick={() => setMobileOpen(!mobileOpen)}
               className="p-2 text-eden-forest"
               aria-label="Toggle menu"
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-navigation"
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {mobileOpen ? (
@@ -103,7 +106,10 @@ export function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="md:hidden border-t border-eden-sage bg-eden-cream">
+        <div
+          id="mobile-navigation"
+          className="md:hidden border-t border-eden-sage bg-eden-cream"
+        >
           <div className="px-4 py-4 space-y-1">
             {navLinks.map((link) => (
               <Link

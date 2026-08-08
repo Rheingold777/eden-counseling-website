@@ -70,7 +70,7 @@ export function OrganizationSchema() {
     name: "Eden Counseling and Wellness, PLLC",
     alternateName: "Eden Counseling and Wellness",
     description:
-      "Faith-based counseling for individuals, adolescents, and couples in Austin, Texas. Telehealth sessions available throughout Texas.",
+      "Faith-informed counseling for individuals ages 10 and up and couples, offered through telehealth across Texas and in person in Buda on Saturdays.",
     url: BASE_URL,
     telephone: "+1-512-881-6560",
     email: "info@edencounselingwellness.com",
@@ -107,7 +107,7 @@ export function OrganizationSchema() {
             "@type": "Service",
             name: "Adolescent Counseling",
             description:
-              "Counseling for teens ages 13+ dealing with anxiety, academic pressure, family dynamics, and self-esteem.",
+              "Counseling for young people ages 10+ dealing with anxiety, academic pressure, family dynamics, and self-esteem.",
           },
         },
         {
@@ -160,7 +160,7 @@ export function PersonSchema() {
     name: "Marissa Cooney",
     jobTitle: "LPC-Associate",
     description:
-      "Licensed Professional Counselor Associate providing faith-based counseling in Austin, TX.",
+      "Licensed Professional Counselor Associate providing faith-informed telehealth counseling across Texas and in-person appointments in Buda on Saturdays.",
     url: `${BASE_URL}/about`,
     image: `${BASE_URL}/images/marissa-headshot.jpg`,
     telephone: "+1-512-881-6560",

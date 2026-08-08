@@ -69,6 +69,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${BASE_URL}/book`,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
     ...blogPosts,
     ...authorityUrls,
   ];

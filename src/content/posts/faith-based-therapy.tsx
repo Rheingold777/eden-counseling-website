@@ -296,8 +296,8 @@ export default function FaithBasedTherapyPost() {
 
       <p>
         If you&rsquo;ve been wondering whether faith-based therapy might be
-        right for you, the best next step is a conversation. Learn more about our{" "}
-        <Link href="/services">counseling services</Link> or explore how{" "}
+        right for you, the best next step is a conversation. Learn more about Eden&apos;s{" "}
+        <Link href="/therapy/faith-based-therapy">faith-based therapy approach</Link> or explore how{" "}
         <Link href="/telehealth">telehealth therapy</Link> works. No pressure, no
         commitment&mdash;just a chance to see if it feels like the right fit.
       </p>
@@ -308,9 +308,9 @@ export default function FaithBasedTherapyPost() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Schedule a free consultation through Psychology Today
+          Review availability through Psychology Today
         </a>{" "}
-        or call{" "}
+        , <Link href="/book">request a consultation</Link>, or call{" "}
         <a href="tel:+15128816560">(512) 881-6560</a>.
       </p>
 
