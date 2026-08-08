@@ -1,6 +1,7 @@
 import type { BlogPost } from "@/content/posts";
 
 const BASE_URL = "https://edencounselingwellness.com";
+const jsonLd = (value: object) => JSON.stringify(value).replace(/</g, "\\u003c");
 
 export function ArticleSchema({ post }: { post: BlogPost }) {
   const schema = {
@@ -36,7 +37,7 @@ export function ArticleSchema({ post }: { post: BlogPost }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
     />
   );
 }
@@ -56,38 +57,24 @@ export function BreadcrumbSchema({ items }: { items: { name: string; url: string
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
     />
   );
 }
 
-export function LocalBusinessSchema() {
+export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
+    "@type": "Organization",
     "@id": `${BASE_URL}/#organization`,
     name: "Eden Counseling and Wellness, PLLC",
     alternateName: "Eden Counseling and Wellness",
     description:
-      "Faith-based counseling for individuals, adolescents, and couples in Austin, Texas. Telehealth sessions available throughout Texas.",
+      "Faith-informed counseling for individuals ages 10 and up and couples, offered through telehealth across Texas and in person in Buda on Saturdays.",
     url: BASE_URL,
     telephone: "+1-512-881-6560",
     email: "info@edencounselingwellness.com",
     image: `${BASE_URL}/images/eden-logo.jpeg`,
-    priceRange: "$60-$100",
-    paymentAccepted: "Credit Card, Debit Card",
-    currenciesAccepted: "USD",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Austin",
-      addressRegion: "TX",
-      addressCountry: "US",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 30.1695,
-      longitude: -97.8169,
-    },
     areaServed: {
       "@type": "State",
       name: "Texas",
@@ -120,7 +107,7 @@ export function LocalBusinessSchema() {
             "@type": "Service",
             name: "Adolescent Counseling",
             description:
-              "Counseling for teens ages 13+ dealing with anxiety, academic pressure, family dynamics, and self-esteem.",
+              "Counseling for young people ages 10+ dealing with anxiety, academic pressure, family dynamics, and self-esteem.",
           },
         },
         {
@@ -139,7 +126,7 @@ export function LocalBusinessSchema() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
     />
   );
 }
@@ -161,7 +148,7 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
     />
   );
 }
@@ -173,13 +160,14 @@ export function PersonSchema() {
     name: "Marissa Cooney",
     jobTitle: "LPC-Associate",
     description:
-      "Licensed Professional Counselor Associate providing faith-based counseling in Austin, TX.",
+      "Licensed Professional Counselor Associate providing faith-informed telehealth counseling across Texas and in-person appointments in Buda on Saturdays.",
     url: `${BASE_URL}/about`,
     image: `${BASE_URL}/images/marissa-headshot.jpg`,
     telephone: "+1-512-881-6560",
     email: "info@edencounselingwellness.com",
     worksFor: {
-      "@type": "MedicalBusiness",
+      "@type": "Organization",
+      "@id": `${BASE_URL}/#organization`,
       name: "Eden Counseling and Wellness, PLLC",
     },
     alumniOf: {
@@ -212,15 +200,13 @@ export function PersonSchema() {
       "https://openpathcollective.org/therapist/marissa-cooney/",
       "https://www.emorahealth.com/providers/profile/10867874/marissa-cooney",
       "https://www.conciergecounselingservice.com/marissa",
-      "https://www.zoominfo.com/p/Marissa-Cooney/2370416100",
-      "https://rocketreach.co/marissa-cooney-email_251500891",
     ],
   };
 
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
     />
   );
 }

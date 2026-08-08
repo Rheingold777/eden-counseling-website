@@ -5,7 +5,7 @@ import { posts } from "@/content/posts";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
-  title: "Faith & Mental Health Blog | Eden Counseling Austin",
+  title: "Faith & Mental Health Blog",
   description:
     "Articles on faith-based counseling, mental health, and wellness from Marissa Cooney, LPC-Associate, at Eden Counseling and Wellness in Austin, TX.",
   openGraph: {

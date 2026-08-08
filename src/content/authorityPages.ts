@@ -23,7 +23,7 @@ export type AuthorityPage = {
 };
 
 const sharedTelehealthNote =
-  "Eden Counseling and Wellness is telehealth-first. Counseling is available when the client is physically located in Texas at the time of the session.";
+  "Eden Counseling and Wellness provides telehealth counseling when the client is physically located in Texas at the time of the session.";
 
 export const areaPages: AuthorityPage[] = [
   {
@@ -46,9 +46,9 @@ export const areaPages: AuthorityPage[] = [
           "Buda families often want counseling that feels grounded, practical, and personal without adding another long drive into Austin. Eden offers telehealth counseling for clients in Buda who want space to work through anxiety, relationship stress, grief, faith questions, or a difficult season of life.",
       },
       {
-        heading: "Local context without pretending to be an office",
+        heading: "Online and Saturday counseling options in Buda",
         body:
-          "This page is written for people searching near Downtown Buda, Main Street, Historic Stagecoach Park, and the I-35 corridor. Eden is not claiming a walk-in office in Buda. Sessions are online for clients who are physically located in Texas.",
+          "Eden provides telehealth counseling for Buda residents and other clients who are physically located in Texas during their sessions. Saturday in-person appointments are also available at Eden's Buda office, subject to availability.",
       },
       {
         heading: "Faith can be part of the work",
@@ -58,14 +58,14 @@ export const areaPages: AuthorityPage[] = [
     ],
     faqs: [
       {
-        question: "Does Eden Counseling have an office in Buda?",
+        question: "Does Eden Counseling offer in-person appointments in Buda?",
         answer:
-          "No. Eden is telehealth-first and does not represent this as a Buda walk-in office. Buda residents can meet online when physically located in Texas.",
+          "Yes. Eden offers in-person sessions at 645 FM 967, Suite 104, Buda, Texas 78610 on Saturdays only. Telehealth remains available for clients located in Texas.",
       },
       {
         question: "Can Buda teens use telehealth counseling?",
         answer:
-          "Yes, teen counseling may be available for adolescents ages 13 and up when appropriate and with parent or guardian involvement.",
+          "Yes, counseling may be available for young people ages 10 and up when appropriate and with parent or guardian involvement.",
       },
     ],
   },
@@ -485,7 +485,7 @@ export const areaPages: AuthorityPage[] = [
       {
         question: "Can Shady Hollow teens work with Eden?",
         answer:
-          "Teen counseling may be available for adolescents ages 13 and up when appropriate and with parent or guardian involvement.",
+          "Counseling may be available for young people ages 10 and up when appropriate and with parent or guardian involvement.",
       },
       {
         question: "Can parents attend part of teen counseling?",
@@ -575,7 +575,7 @@ export const areaPages: AuthorityPage[] = [
       {
         question: "Can Pflugerville teens use counseling?",
         answer:
-          "Yes, teen counseling may be available for adolescents ages 13 and up when appropriate and with parent or guardian involvement.",
+          "Yes, counseling may be available for young people ages 10 and up when appropriate and with parent or guardian involvement.",
       },
     ],
   },
@@ -703,7 +703,7 @@ export const areaPages: AuthorityPage[] = [
       {
         question: "How do Leander teens access counseling?",
         answer:
-          "Teen counseling may be available for ages 13 and up with parent or guardian involvement.",
+          "Counseling may be available for ages 10 and up with parent or guardian involvement.",
       },
     ],
   },
@@ -960,7 +960,7 @@ export const therapyPages: AuthorityPage[] = [
       {
         question: "Can teens receive anxiety counseling?",
         answer:
-          "Teen counseling may be available for adolescents ages 13 and up when appropriate and with parent or guardian involvement.",
+          "Counseling may be available for young people ages 10 and up when appropriate and with parent or guardian involvement.",
       },
     ],
   },
@@ -1054,11 +1054,11 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Teen Counseling",
     metaTitle: "Teen Counseling in Austin, Buda, and Texas",
     metaDescription:
-      "Telehealth counseling for teens ages 13 and up in Texas, with support for anxiety, stress, self-esteem, family dynamics, and faith.",
+      "Counseling for young people ages 10 and up in Texas, with support for anxiety, stress, self-esteem, family dynamics, and faith.",
     primaryKeyword: "teen counseling Austin TX",
     secondaryKeywords: ["adolescent counseling Buda TX", "Christian teen counseling", "online teen therapy Texas"],
     intent: "Parent and teen search for adolescent counseling.",
-    audience: "Teens ages 13 and up and their parents or guardians.",
+    audience: "Young people ages 10 and up and their parents or guardians.",
     sections: [
       {
         heading: "Support for teens in a high-pressure season",
@@ -1080,7 +1080,7 @@ export const therapyPages: AuthorityPage[] = [
       {
         question: "What ages does Eden see for teen counseling?",
         answer:
-          "Eden notes adolescent counseling for ages 13 and up, depending on fit, needs, and parent or guardian involvement.",
+          "Eden offers counseling for ages 10 and up, depending on fit, needs, and parent or guardian involvement.",
       },
       {
         question: "Can parents know what is discussed?",
@@ -1347,7 +1347,7 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Online Christian Counseling",
     metaTitle: "Online Christian Counseling in Texas | Eden Counseling",
     metaDescription:
-      "Online Christian counseling for anyone in Texas. Faith-integrated, evidence-based therapy by video for anxiety, depression, grief, and relationships. Book a free consult.",
+      "Online Christian counseling across Texas for anxiety, depression, grief, and relationships. Faith-integrated telehealth with a free consultation.",
     primaryKeyword: "online Christian counseling Texas",
     secondaryKeywords: [
       "online Christian counseling",
@@ -1395,7 +1395,7 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Affordable Christian Counseling",
     metaTitle: "Affordable Christian Counseling Austin | Sliding Scale",
     metaDescription:
-      "Affordable Christian counseling in Austin, TX. Faith-based telehealth therapy with sliding-scale rates from $60 to $100, no insurance required. Book a free consult.",
+      "Affordable Christian counseling in Austin by telehealth. Sliding-scale rates from $60 to $100 with no insurance required. Book a free consultation.",
     primaryKeyword: "affordable Christian counseling Austin",
     secondaryKeywords: [
       "sliding scale therapist Austin",
@@ -1444,7 +1444,7 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Depression Counseling",
     metaTitle: "Christian Counseling for Depression | Texas Telehealth",
     metaDescription:
-      "Christian counseling for depression by telehealth in Texas. Faith-integrated, evidence-based support for low mood, hopelessness, and heaviness. Book a free consult.",
+      "Christian counseling for depression by telehealth in Texas. Faith-integrated support for low mood, hopelessness, and heaviness. Book a free consultation.",
     primaryKeyword: "Christian counseling for depression",
     secondaryKeywords: [
       "Christian depression therapist",
@@ -1491,7 +1491,7 @@ export const therapyPages: AuthorityPage[] = [
     shortTitle: "Christian Marriage Counseling",
     metaTitle: "Christian Marriage Counseling Texas | Online Couples",
     metaDescription:
-      "Faith-based marriage and couples counseling by telehealth in Texas. Rebuild communication, trust, and connection with optional Scripture-informed care. Book a consult.",
+      "Faith-based marriage and couples counseling by telehealth in Texas. Rebuild communication, trust, and connection with optional Scripture-informed care.",
     primaryKeyword: "Christian marriage counseling Texas",
     secondaryKeywords: [
       "Christian couples counseling",
@@ -1535,6 +1535,46 @@ export const therapyPages: AuthorityPage[] = [
 ];
 
 export const faqPages: AuthorityPage[] = [
+  {
+    kind: "faq",
+    slug: "in-person-sessions-buda",
+    title: "Do You Offer In-Person Sessions?",
+    shortTitle: "In-Person Sessions",
+    metaTitle: "In-Person Counseling in Buda | Eden Counseling FAQ",
+    metaDescription:
+      "Eden offers Saturday in-person counseling appointments in Buda, Texas, alongside telehealth counseling for clients across Texas.",
+    primaryKeyword: "in-person counseling Buda TX",
+    secondaryKeywords: ["Saturday counseling Buda", "therapist office Buda TX", "Eden Counseling Buda"],
+    intent: "Location, format, and availability question.",
+    audience: "Prospective clients deciding between in-person and telehealth counseling.",
+    sections: [
+      {
+        heading: "Saturday appointments in Buda",
+        body:
+          "Yes. Eden offers in-person sessions at 645 FM 967, Suite 104, Buda, Texas 78610 on Saturdays only. Availability should be confirmed when scheduling.",
+      },
+      {
+        heading: "Telehealth remains available across Texas",
+        body:
+          "Clients may also meet through secure telehealth when they are physically located in Texas at the time of the session.",
+      },
+      {
+        heading: "Choose the format that fits",
+        body:
+          "Ask about current availability, privacy, technology, travel, and clinical fit when deciding between a Saturday office appointment and telehealth.",
+      },
+    ],
+    faqs: [
+      {
+        question: "When are in-person sessions available?",
+        answer: "In-person sessions are available at the Buda office on Saturdays only, subject to current availability.",
+      },
+      {
+        question: "Where is the Buda office?",
+        answer: "645 FM 967, Suite 104, Buda, Texas 78610.",
+      },
+    ],
+  },
   {
     kind: "faq",
     slug: "cost-of-counseling",
@@ -1794,11 +1834,11 @@ export const faqPages: AuthorityPage[] = [
     shortTitle: "Teen Parent FAQ",
     metaTitle: "Parent FAQ for Teen Counseling | Eden Counseling",
     metaDescription:
-      "Answers for parents considering counseling for a teen age 13 or older, including privacy, involvement, and telehealth fit.",
+      "Answers for parents considering counseling for a young person age 10 or older, including privacy, involvement, and telehealth fit.",
     primaryKeyword: "teen counseling parent questions",
     secondaryKeywords: ["adolescent therapy parent FAQ", "teen counseling confidentiality", "online teen counseling Texas"],
     intent: "Parent decision search before booking teen counseling.",
-    audience: "Parents and guardians of teens ages 13 and up.",
+    audience: "Parents and guardians of young people ages 10 and up.",
     sections: [
       {
         heading: "Parents are part of the process",

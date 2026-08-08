@@ -49,24 +49,15 @@ export default function Home() {
               </p>
             </div>
             <div className="relative">
-              <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-xl">
+              <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/marissa-headshot.jpg"
-                  alt="Marissa Cooney, LPC-Associate"
+                  src="/images/eden-buda-landscape.jpg"
+                  alt="Texas Hill Country landscape photographed for Eden Counseling and Wellness"
                   fill
-                  className="object-cover object-top"
+                  className="object-cover"
                   priority
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
-              </div>
-              <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg px-6 py-4">
-                <Link
-                  href="/about"
-                  className="font-heading text-eden-forest font-semibold hover:text-eden-olive transition-colors"
-                >
-                  Marissa Cooney
-                </Link>
-                <p className="text-sm text-eden-forest/60">LPC-Associate</p>
               </div>
             </div>
           </div>
@@ -94,7 +85,7 @@ export default function Home() {
                 </svg>
               }
               title="Individual Counseling"
-              description="Support for adults and adolescents (13+) navigating anxiety, depression, trauma, life transitions, and emotional wellness."
+              description="Support for adults and young people ages 10+ navigating anxiety, depression, trauma, life transitions, and emotional wellness."
               href="/services#individual"
             />
             <ServiceCard
@@ -117,57 +108,6 @@ export default function Home() {
               description="Christian counseling that integrates faith and therapy — honoring your beliefs while providing evidence-based support."
               href="/services#faith"
             />
-          </div>
-        </div>
-      </section>
-
-      {/* About Preview */}
-      <section className="py-20 md:py-24 bg-eden-sage/30">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="font-heading text-3xl md:text-4xl font-semibold text-eden-forest mb-6">
-                Meet Marissa
-              </h2>
-              <p className="text-eden-forest/70 leading-relaxed mb-4">
-                I&rsquo;m{" "}
-                <Link href="/about" className="text-eden-forest font-medium hover:text-eden-olive transition-colors">
-                  Marissa Cooney
-                </Link>
-                , an Austin, Texas original. I graduated with
-                my master&rsquo;s degree in Clinical Mental Health Counseling from
-                Liberty University in 2025.
-              </p>
-              <p className="text-eden-forest/70 leading-relaxed mb-4">
-                I am passionate about wellness and health, both mental and physical.
-                I serve as a board member for Foundations Culture and Learning Center
-                and am an active member of Loving Austin Ministries.
-              </p>
-              <p className="text-eden-forest/70 leading-relaxed mb-6">
-                I am a Christian and will incorporate faith-based principles into your
-                counseling sessions if you would like, but I will also respect your
-                wishes if you prefer a different approach.
-              </p>
-              <Link
-                href="/about"
-                className="inline-flex items-center text-eden-forest font-medium hover:text-eden-olive transition-colors group"
-              >
-                Read more about my background
-                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
-            <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="space-y-4">
-                <InfoRow label="Credential" value="LPC-Associate (TX #100160)" />
-                <InfoRow label="Supervisor" value="Dr. Jennifer McCurrach, LPC-S" />
-                <InfoRow label="Education" value="MA Clinical Mental Health Counseling, Liberty University" />
-                <InfoRow label="Serves" value="Adults, Adolescents (13+), Couples" />
-                <InfoRow label="Format" value="Telehealth (all of Texas)" />
-                <InfoRow label="Faith" value="Christian — integrated on request" />
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -286,7 +226,6 @@ export default function Home() {
     </>
   );
 }
-
 function ServiceCard({
   icon,
   title,
@@ -309,14 +248,5 @@ function ServiceCard({
       <h3 className="font-heading text-xl font-semibold text-eden-forest mb-3">{title}</h3>
       <p className="text-eden-forest/60 leading-relaxed">{description}</p>
     </Link>
-  );
-}
-
-function InfoRow({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3 py-2 border-b border-eden-sage/50 last:border-0">
-      <span className="text-sm font-medium text-eden-forest/50 sm:w-28 shrink-0">{label}</span>
-      <span className="text-eden-forest">{value}</span>
-    </div>
   );
 }
